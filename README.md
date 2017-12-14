@@ -26,7 +26,7 @@ By DezzArt
 
 
 Stand: 14.12.2017
-1. Basic game concept / Overview 
+1. Basic game Concept / Overview 
 Kellermächte ist eine Mischung aus einem Tower-Defense Game und einem RTS. Es wird eine Schlacht zwischen 2 Kellerkindern thematisiert, die versuchen den Keller des anderen zu belagern. 
 Zwischen den Kellern versuchen die Spieler Benis(Ressource) zu sammeln, um daraus Türme und Einheiten zu bauen. Der Spieler, der zuerst eine Spezialeinheit in den gegnerischen Keller bewegen kann, gewinnt das Spiel. (Spezialeinheit nimmt den Keller ein)
 2. Key Facts
