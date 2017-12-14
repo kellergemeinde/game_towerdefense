@@ -33,7 +33,7 @@ Zwischen den Kellern versuchen die Spieler Benis(Ressource) zu sammeln, um darau
 •	Genre:
 	RTS-Tower-Defense Hybrid  (wahrscheinlich Topdown 3D?)
 •	Platforms:
-	Windows/Mac/Linux
+	Windows/Mac/Linux/Android??
 •	Target Group:
 	Pr0gramm.com – User, 16+
 •	Game mode: 
