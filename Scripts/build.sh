@@ -21,8 +21,8 @@ echo $(ls -la /opt/Unity/Editor/Unity)
   -projectPath $(pwd) \
   -buildWindows64Player  "$(pwd)/Builds/Windows/$project.64x.exe" \
   -force-free \
-  -username=$username
-  -pasword=$password
+  -username "$username"
+  -pasword "$password"
   -quit
 
 echo 'Logs from latest build'
