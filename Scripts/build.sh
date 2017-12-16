@@ -6,7 +6,7 @@ echo "Attempting to build Towerdefense for Windows"
     -nographics \
 #    -silent-crashes \
 #    -projectPath $(pwd) \
-     -projectPath ./ \
+     -projectPath ${pwd}/ \
     -buildWindowsPlayer "./Build/windows/Towerdefense.exe" \
 -quit
 
@@ -17,7 +17,7 @@ echo "Attempting to build Towerdefense for Linux"
     -silent-crashes \
     -logFile $(pwd)/unity.log \
 #   -projectPath $(pwd)
-    -projectPath ./ \
+    -projectPath $(dirname "$0")/ \
     -buildLinuxUniversalPlayer "$(pwd)/Build/linux/Towerdefense.exe" \
 -quit
 
