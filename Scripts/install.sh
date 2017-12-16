@@ -2,12 +2,10 @@
 #! /bin/sh
 
 echo 'Installing Unity on Linux'
-echo 1
-echo $pwd
-echo 2
+
 echo $(pwd)
-echo 3
-echo ${pwd}
+ls
+
   echo "travis_fold:start:install_unity"
   echo 'Installing Unity'
    # latest Linux Unity details can be found at https://forum.unity3d.com/threads/unity-on-linux-release-notes-and-known-issues.350256/
