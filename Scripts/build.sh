@@ -5,8 +5,8 @@
 # Change this the name of your project. This will be the name of the final executables as well.
 project="Kellermächte-TD"
 logFile=$(pwd)/Builds/build.log
-username=$(UNITY_CREDENTIALS_USERNAME)
-password=$(UNITY_CREDENTIALS_PASSWORD)
+username="Kellermächte"
+password="Keller#12"
 echo $username
 echo $password
 
