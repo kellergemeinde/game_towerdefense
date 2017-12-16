@@ -1,10 +1,15 @@
 # do not install anything extra onto the image
 language: generic
-
 sudo: required
 
 # use a Linux image
 os: linux
+
+# send email notifications when the build changes from succeeding to broken
+notifications:
+  email:
+    on_success: never
+    on_failure: change
 
 # only run builds on pushes to the master branch
 branches:
@@ -14,6 +19,10 @@ branches:
 before_install:
 - chmod a+x ./Scripts/install.sh
 - chmod a+x ./Scripts/build.sh
+- mkdir -p ./Builds/Windows/
+- mkdir -p ./Builds/Linux/
+- mkdir -p ./Builds/MacOSX/
+- chmod -R 0777 ./Builds
 
 #Install Editor
 install:
