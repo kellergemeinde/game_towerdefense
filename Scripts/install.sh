@@ -2,8 +2,11 @@
 #! /bin/sh
 
 echo 'Installing Unity on Linux'
+echo 1
 echo $pwd
+echo 2
 echo $(pwd)
+echo 3
 echo ${pwd}
   echo "travis_fold:start:install_unity"
   echo 'Installing Unity'
