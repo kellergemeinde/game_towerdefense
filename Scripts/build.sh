@@ -16,6 +16,7 @@ echo $(ls -la /opt/Unity/Editor/Unity)
   -logFile $logFile \
   -projectPath $(pwd) \
   -buildWindows64Player  "$(pwd)/Builds/Windows/$project.64x.exe" \
+  -force-free \
   -quit
 
 echo 'Logs from latest build'

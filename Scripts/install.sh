@@ -1,7 +1,7 @@
 #! /bin/sh
 
 echo $(pwd)
-echo $(ls -lah)
+echo $(ls -ah)
 echo 'Installing Unity on Linux'
 
 echo "travis_fold:start:install_unity"
