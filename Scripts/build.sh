@@ -6,16 +6,18 @@
 project="Kellermächte-TD"
 logFile=$(pwd)/Builds/build.log
 
+echo "travis_fold:start:build_win64"
 echo "Attempting to build $project for Windows"
-echo $(ls -lah ./Applications/Unity/Unity.app/Contents)
-./Applications/Unity/Unity.app/Contents/MacOS/Unity \
+echo $(ls -la /opt/Unity/Editor/Unity)
+/opt/Unity/Editor/Unity \
   -batchmode \
   -nographics \
   -silent-crashes \
   -logFile $logFile \
   -projectPath $(pwd) \
-  -buildWindows64Player  "$(pwd)/Build/windows/$project.exe" \
+  -buildWindows64Player  "$(pwd)/Builds/Windows/$project.64x.exe" \
   -quit
 
-echo 'Logs from build'
+echo 'Logs from latest build'
 cat $logFile
+echo "travis_fold:end:build_win64"

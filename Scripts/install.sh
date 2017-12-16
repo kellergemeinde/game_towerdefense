@@ -10,7 +10,8 @@ echo 'Installing Unity'
 curl -o unity.deb http://beta.unity3d.com/download/ee86734cf592/unity-editor_amd64-2017.2.0f3.deb
 # from http://askubuntu.com/a/841240/310789
 sudo dpkg -i unity.deb
-echo $(dpkg --contents unity.deb);
+# .deb gets installed under /opt/Unity/
+#echo $(dpkg --contents unity.deb);
 echo "travis_fold:end:install_unity"
 
 echo "travis_fold:start:install_missing_dependencies"
