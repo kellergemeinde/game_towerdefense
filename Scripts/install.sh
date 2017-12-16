@@ -2,6 +2,12 @@
 
 echo $(pwd)
 echo $(ls -ah)
+
+username=$(UNITY_CREDENTIALS_USERNAME)
+password=$(UNITY_CREDENTIALS_PASSWORD)
+echo $username
+echo $password
+
 echo 'Installing Unity on Linux'
 
 echo "travis_fold:start:install_unity"
