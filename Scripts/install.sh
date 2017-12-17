@@ -16,6 +16,8 @@ echo "travis_fold:end:install_missing_dependencies"
 
 echo "travis_fold:start:install_licence"
 echo 'Installing Licence'
+ping core.cloud.unity3d.com
+curl -X GET 'https://core.cloud.unity3d.com/api/login' -v
 mkdir -p ~/Library/Unity/Certificates
 mkdir -p ~/.local/share/unity3d/Certificates/
 cp $(pwd)/Scripts/CACerts.pem ~/Library/Unity/Certificates/
