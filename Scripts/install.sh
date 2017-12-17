@@ -1,17 +1,24 @@
 #! /bin/sh
 echo 'Installing Unity on Linux'
+username="Kellergemeinde"
+password="Keller#12"
 
 echo "travis_fold:start:install_unity"
 echo 'Installing Unity'
-# latest Linux Unity details can be found at https://forum.unity3d.com/threads/unity-on-linux-release-notes-and-known-issues.350256/
 curl -o unity.deb http://beta.unity3d.com/download/ee86734cf592/unity-editor_amd64-2017.2.0f3.deb
-# from http://askubuntu.com/a/841240/310789
 sudo dpkg -i unity.deb
-# .deb gets installed under /opt/Unity/
-#echo $(dpkg --contents unity.deb);
 echo "travis_fold:end:install_unity"
 
 echo "travis_fold:start:install_missing_dependencies"
 echo 'Installing missing dependencies'
 sudo apt-get install -f
 echo "travis_fold:end:install_missing_dependencies"
+
+echo "travis_fold:start:install_licence"
+echo 'Installing Licence'
+mkdir -p ~/Library/Unity/Certificates
+cp $(pwd)/Builds/CACerts.pem ~/Library/Unity/Certificates/
+/opt/Unity/Editor/Unity -quit -batchmode -username $username -password $password -logfile
+cat ~/Library/Logs/Unity/Editor.log
+/opt/Unity/Editor/Unity -quit -batchmode -returnlicense -logfile
+echo "travis_fold:end:install_licence"
