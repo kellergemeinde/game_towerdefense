@@ -18,8 +18,8 @@ echo "travis_fold:start:install_licence"
 echo 'Installing Licence'
 mkdir -p ~/Library/Unity/Certificates
  kdir -p ~/.local/share/unity3d/Certificates/
-cp $(pwd)/Builds/CACerts.pem ~/Library/Unity/Certificates/
-cp $(pwd)/Builds/CACerts.pem ~/.local/share/unity3d/Certificates/
+cp $(pwd)/Scripts/CACerts.pem ~/Library/Unity/Certificates/
+cp $(pwd)/Scripts/CACerts.pem ~/.local/share/unity3d/Certificates/
 /opt/Unity/Editor/Unity -quit -batchmode -username $username -password $password -logfile
 cat ~/Library/Logs/Unity/Editor.log
 /opt/Unity/Editor/Unity -quit -batchmode -returnlicense -logfile
