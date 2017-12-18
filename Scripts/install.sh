@@ -1,29 +1,30 @@
 #! /bin/sh
-echo 'Installing Unity on Linux'
-username="Kellergemeinde"
-password="Keller#12"
+USERNAME="Kellergemeinde"
+PASSWORD="Keller#12"
+BASE_URL=http://netstorage.unity3d.com/unity
+HASH=94bf3f9e6b5e
+VERSION=2017.2.1f1
+PLATFORM=osx
 
+installPackage() {
+	package=$1
+	url="$BASE_URL/$HASH/$package"
+	echo "Downloading from $url: "
+	curl -o `basename "$package"` "$url"
+	echo "Installing "`basename "$package"`
+	sudo installer -dumplog -package `basename "$package"` -target /
+}
+
+echo $BASE_URL/$HASH/unity-$VERSION-$PLATFORM.ini
+echo http://netstorage.unity3d.com/unity/94bf3f9e6b5e/unity-2017.2.1f1-osx.ini
 echo "travis_fold:start:install_unity"
 echo 'Installing Unity'
-# curl -o unity.deb http://beta.unity3d.com/download/ee86734cf592/unity-editor_amd64-2017.2.0f3.deb
-# sudo dpkg -i unity.deb
-curl -o Unity.pkg https://netstorage.unity3d.com/unity/94bf3f9e6b5e/MacEditorInstaller/Unity-2017.2.1f1.pkg
-sudo installer -dumplog -package Unity.pkg -target /
+	installPackage "MacEditorInstaller/Unity-$VERSION.pkg"
 echo "travis_fold:end:install_unity"
 
-echo "travis_fold:start:install_missing_dependencies"
-echo 'Installing missing dependencies'
-sudo apt-get install -f
-echo "travis_fold:end:install_missing_dependencies"
-
-echo "travis_fold:start:install_licence"
-echo 'Installing Licence'
-curl -X GET 'https://core.cloud.unity3d.com/api/login' -v
-mkdir -p ~/Library/Unity/Certificates
-mkdir -p ~/.local/share/unity3d/Certificates/
-cp $(pwd)/Scripts/CACerts.pem ~/Library/Unity/Certificates/
-cp $(pwd)/Scripts/CACerts.pem ~/.local/share/unity3d/Certificates/
-/opt/Unity/Editor/Unity -quit -batchmode -nographics -username $username -password $password -logfile
-cat ~/Library/Logs/Unity/Editor.log
-/opt/Unity/Editor/Unity -quit -batchmode -nographics -returnlicense -logfile
-echo "travis_fold:end:install_licence"
+echo "travis_fold:start:install_targets"
+echo 'Installing Targets'
+	installPackage "MacEditorTargetInstaller/UnitySetup-Windows-Support-for-Editor-$VERSION.pkg"
+	installPackage "MacEditorTargetInstaller/UnitySetup-Mac-Support-for-Editor-$VERSION.pkg"
+	installPackage "MacEditorTargetInstaller/UnitySetup-Linux-Support-for-Editor-$VERSION.pkg"
+echo "travis_fold:end:install_targets"
