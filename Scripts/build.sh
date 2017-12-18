@@ -10,14 +10,15 @@ password="Keller#12"
 buildPlayer() {
     build=$1
     output=$2
-    echo "Attempting to build $project for $build"
+    platform=$3
+    echo "Attempting to build $project for $platform"
     /Applications/Unity/Unity.app/Contents/MacOS/Unity \
         -batchmode \
         -nographics \
         -silent-crashes \
         -logFile "$logFile" \
         -projectPath $(pwd) \
-        -$build "$(pwd)/Builds/Windows/$project.$output" \
+        -$build "$(pwd)/Builds/$platform/$project.$output" \
         -force-free \
         -quit
     echo 'Logs from latest build'
@@ -25,5 +26,5 @@ buildPlayer() {
 }
 
 echo "travis_fold:start:build_win64"
-    buildPlayer "buildWindows64Player" "64x.exe"
+    buildPlayer "buildWindows64Player" "Windows-64x.exe" "Windows"
 echo "travis_fold:end:build_win64"
