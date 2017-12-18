@@ -23,6 +23,7 @@ branches:
 before_install:
 - chmod a+x ./Scripts/install.sh
 - chmod a+x ./Scripts/build.sh
+- chmod a+x ./Scripts/upload.sh
 - mkdir -p ./Builds/Windows/
 - mkdir -p ./Builds/Linux/
 - mkdir -p ./Builds/MacOSX/
