@@ -19,7 +19,7 @@ buildPlayer() {
         -$build "$(pwd)/Builds/$platform/$project.$output" \
         -force-free \
         -quit
-    echo 'Logs from latest build'
+    echo 'Logs from latest build: $platform'
     cat $logFile
 }
 

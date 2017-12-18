@@ -15,7 +15,7 @@ installPackage() {
 
 echo $BASE_URL/$HASH/unity-$VERSION-$PLATFORM.ini
 echo "travis_fold:start:install_unity"
-	echo 'Installing Unity'
+	echo 'Installing Unity $VERSION'
 	installPackage "MacEditorInstaller/Unity-$VERSION.pkg"
 echo "travis_fold:end:install_unity"
 
