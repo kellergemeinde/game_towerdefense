@@ -10,7 +10,7 @@ password="Keller#12"
 echo "travis_fold:start:build_win64"
 echo "Attempting to build $project for Windows"
 echo $(ls -la /opt/Unity/Editor/Unity)
-/opt/Unity/Editor/Unity \
+/Applications/Unity/Unity.app/Contents/MacOS/Unity \
   -batchmode \
   -nographics \
   -silent-crashes \
@@ -18,8 +18,8 @@ echo $(ls -la /opt/Unity/Editor/Unity)
   -projectPath $(pwd) \
   -buildWindows64Player  "$(pwd)/Builds/Windows/$project.64x.exe" \
   -force-free \
-  -username "$username" \
-  -password "$password" \
+  #-username "$username" \
+  #-password "$password" \
   -quit
 
 echo 'Logs from latest build'

@@ -5,8 +5,10 @@ password="Keller#12"
 
 echo "travis_fold:start:install_unity"
 echo 'Installing Unity'
-curl -o unity.deb http://beta.unity3d.com/download/ee86734cf592/unity-editor_amd64-2017.2.0f3.deb
-sudo dpkg -i unity.deb
+# curl -o unity.deb http://beta.unity3d.com/download/ee86734cf592/unity-editor_amd64-2017.2.0f3.deb
+# sudo dpkg -i unity.deb
+curl -o Unity.pkg https://netstorage.unity3d.com/unity/94bf3f9e6b5e/MacEditorInstaller/Unity-2017.2.1f1.pkg
+sudo installer -dumplog -package Unity.pkg -target /
 echo "travis_fold:end:install_unity"
 
 echo "travis_fold:start:install_missing_dependencies"

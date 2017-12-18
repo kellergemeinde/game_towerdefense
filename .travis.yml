@@ -1,9 +1,13 @@
 # do not install anything extra onto the image
-language: generic
-sudo: required
+#language: generic
+#sudo: required
+#os: linux
 
-# use a Linux image
-os: linux
+language: objective-c
+osx_image: xcode61
+sudo: required
+rvm:
+  - 2.1.2
 
 # send email notifications when the build changes from succeeding to broken
 notifications:
@@ -32,3 +36,4 @@ install:
 # Build
 script:
 - ./Scripts/build.sh
+
