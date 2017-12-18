@@ -18,7 +18,8 @@ notifications:
 # only run builds on pushes to the master branch
 branches:
   only:
-  - kossinator
+  - master
+  - continuous-integration
   
 before_install:
 - chmod a+x ./Scripts/install.sh
