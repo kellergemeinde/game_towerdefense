@@ -1,0 +1,43 @@
+# do not install anything extra onto the image
+#language: generic
+#sudo: required
+#os: linux
+
+language: objective-c
+osx_image: osx
+sudo: required
+rvm:
+  - 2.1.2
+
+# send email notifications when the build changes from succeeding to broken
+notifications:
+  email:
+    on_success: never
+    on_failure: never
+
+# only run builds on pushes to the master branch
+branches:
+  only:
+  - kossinator
+  
+before_install:
+- chmod a+x ./Scripts/install.sh
+- chmod a+x ./Scripts/build.sh
+- chmod a+x ./Scripts/upload.sh
+- mkdir -p ./Builds/Windows/
+- mkdir -p ./Builds/Linux/
+- mkdir -p ./Builds/MacOSX/
+- touch ./Builds/build.log
+- chmod -R 0777 ./Builds
+
+#Install Editor
+install:
+- ./Scripts/install.sh
+
+# Build
+script:
+- ./Scripts/build.sh
+
+after_success:
+- ./Scripts/upload.sh
+
