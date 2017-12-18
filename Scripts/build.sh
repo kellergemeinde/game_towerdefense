@@ -4,8 +4,6 @@
 # Change this the name of your project. This will be the name of the final executables as well.
 project="Kellermächte-TD"
 logFile=$(pwd)/Builds/build.log
-username="Kellergemeinde"
-password="Keller#12"
 
 buildPlayer() {
     build=$1

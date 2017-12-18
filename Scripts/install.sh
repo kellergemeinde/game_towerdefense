@@ -1,6 +1,4 @@
 #! /bin/sh
-USERNAME="Kellergemeinde"
-PASSWORD="Keller#12"
 BASE_URL=http://netstorage.unity3d.com/unity
 HASH=94bf3f9e6b5e
 VERSION=2017.2.1f1

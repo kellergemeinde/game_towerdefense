@@ -37,3 +37,6 @@ install:
 script:
 - ./Scripts/build.sh
 
+after_success:
+- ./Scripts/upload.sh
+
