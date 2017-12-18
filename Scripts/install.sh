@@ -16,14 +16,13 @@ installPackage() {
 }
 
 echo $BASE_URL/$HASH/unity-$VERSION-$PLATFORM.ini
-echo http://netstorage.unity3d.com/unity/94bf3f9e6b5e/unity-2017.2.1f1-osx.ini
 echo "travis_fold:start:install_unity"
-echo 'Installing Unity'
+	echo 'Installing Unity'
 	installPackage "MacEditorInstaller/Unity-$VERSION.pkg"
 echo "travis_fold:end:install_unity"
 
 echo "travis_fold:start:install_targets"
-echo 'Installing Targets'
+	echo 'Installing Targets'
 	installPackage "MacEditorTargetInstaller/UnitySetup-Windows-Support-for-Editor-$VERSION.pkg"
 	installPackage "MacEditorTargetInstaller/UnitySetup-Mac-Support-for-Editor-$VERSION.pkg"
 	installPackage "MacEditorTargetInstaller/UnitySetup-Linux-Support-for-Editor-$VERSION.pkg"

@@ -7,21 +7,23 @@ logFile=$(pwd)/Builds/build.log
 username="Kellergemeinde"
 password="Keller#12"
 
-echo "travis_fold:start:build_win64"
-echo "Attempting to build $project for Windows"
-echo $(ls -la /opt/Unity/Editor/Unity)
-/Applications/Unity/Unity.app/Contents/MacOS/Unity \
-  -batchmode \
-  -nographics \
-  -silent-crashes \
-  -logFile "$logFile" \
-  -projectPath $(pwd) \
-  -buildWindows64Player  "$(pwd)/Builds/Windows/$project.64x.exe" \
-  -force-free \
-  #-username "$username" \
-  #-password "$password" \
-  -quit
+buildPlayer() {
+    build=$1
+    output=$2
+    echo "Attempting to build $project for $build"
+    /Applications/Unity/Unity.app/Contents/MacOS/Unity \
+        -batchmode \
+        -nographics \
+        -silent-crashes \
+        -logFile "$logFile" \
+        -projectPath $(pwd) \
+        -$build "$(pwd)/Builds/Windows/$project.$output" \
+        -force-free \
+        -quit
+    echo 'Logs from latest build'
+    cat $logFile
+}
 
-echo 'Logs from latest build'
-cat $logFile
+echo "travis_fold:start:build_win64"
+    buildPlayer "buildWindows64Player" "64x.exe"
 echo "travis_fold:end:build_win64"
