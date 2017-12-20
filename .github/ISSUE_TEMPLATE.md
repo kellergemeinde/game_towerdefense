@@ -1,9 +1,9 @@
 ### Prerequisites
 
-* [ ] Feature Request
+* [x] Feature Request
 * [ ] Bug
 
-* [ ] Are you running the latest version? (Unity 2017.2)
+* [ ] Are you running the latest version? (2017.3.0f3)
 
 ### Description
 
