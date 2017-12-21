@@ -1,0 +1,6 @@
+﻿
+
+public class Soldier : Entity {
+
+	
+}
