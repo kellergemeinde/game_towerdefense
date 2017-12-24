@@ -1,7 +1,7 @@
 #! /bin/sh
 BASE_URL=http://netstorage.unity3d.com/unity
-HASH=94bf3f9e6b5e
-VERSION=2017.2.1f1
+HASH=a9f86dcd79df
+VERSION=2017.3.0f3
 PLATFORM=osx
 
 installPackage() {

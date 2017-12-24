@@ -1,0 +1,11 @@
+For SoundFX files (length < 3 sec.):
+
+	Format: WAV 32bit float
+	Samplerate: 44,1khz
+	Channels: Mono or Stereo
+
+For Music files (length > 3 sec.):
+
+	Format: MP3 192kbit/s fixed
+	Samplerate: 44,1khz
+	Channels: Stereo

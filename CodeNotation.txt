@@ -1,5 +1,5 @@
 Notation:
 - Braces unterhalb von Klassen, Methoden, etc. NICHTS direkt rechts daneben
-- Membervariablen groß
+- kein GetAllObjectsWith...()
 - 4 Leerzeichen als Einrückung
 - Immer Braces, auch wenn man sie weglassen könnte
