@@ -1,10 +1,14 @@
-﻿
-/// <summary>
-/// Select and Deselect objects with a mouse click.
-/// </summary>
-public interface IInteractable
-{
-    void Select();
+﻿namespace Project {
 
-    void Deselect();
+    /// <summary>
+    /// Select and Deselect objects with a mouse click.
+    /// </summary>
+    public interface IInteractable {
+
+        void Select();
+
+        void Deselect();
+
+    }
+
 }

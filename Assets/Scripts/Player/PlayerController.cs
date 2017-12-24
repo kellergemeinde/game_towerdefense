@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace Project.Game {
+namespace Project.Player {
 
-    public class GameMode : MonoBehaviour {
+    public class PlayerController : Behaviour {
 
         // Use this for initialization
         void Start() { }

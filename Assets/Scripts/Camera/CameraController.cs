@@ -2,15 +2,17 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace Project.Game {
+namespace Project.Camera {
 
-    public class GameMode : MonoBehaviour {
+    public class CameraController : Behaviour {
 
         // Use this for initialization
         void Start() { }
 
         // Update is called once per frame
-        void Update() { }
+        void Update() {
+            Debug.Log("Project is running ...");
+        }
 
     }
 
