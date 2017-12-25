@@ -6,17 +6,13 @@ namespace Project{
 
     public class Input{
 
-
         private static Input instance;
 
         private Input(){}
 
-        public static Input Instance
-        {
-            get
-            {
-                if (instance == null)
-                {
+        public static Input Instance{
+            get{
+                if (instance == null){
                     instance = new Input();
                 }
                 return instance;
