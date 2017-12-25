@@ -2,31 +2,22 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlusResource : MonoBehaviour {
+namespace Project {
 
-    [SerializeField]
-    private float amountOfPlus = 100f;
+    public class PlusResource : Behaviour {
 
-    public float AmountOfPlus
-    {
-        get
-        {
-            return amountOfPlus;
-        }
+        [SerializeField]
+        private float amountOfPlus = 100f;
 
-        private set
-        {
-            amountOfPlus = value;
-        }
+        public float AmountOfPlus { get { return amountOfPlus; } private set { amountOfPlus = value; } }
+
+        // Use this for initialization
+        void Start() { }
+
+        // Update is called once per frame
+        void Update() { }
+
     }
 
-    // Use this for initialization
-    void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
+
 }

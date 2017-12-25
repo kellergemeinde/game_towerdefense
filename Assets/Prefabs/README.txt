@@ -1,0 +1,1 @@
+Contains prefabs linked in scenes: https://docs.unity3d.com/Manual/Prefabs.html

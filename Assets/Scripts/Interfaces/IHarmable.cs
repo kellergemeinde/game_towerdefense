@@ -1,14 +1,18 @@
-﻿
-public interface IHarmable
-{
-    /// <summary>
-    /// Change the target enemy and harm them with Strike.
-    /// </summary>
-    void Attack();
+﻿namespace Project {
 
-    void Strike(IFightable enemy);
+    public interface IHarmable {
 
-    float Damage();
+        /// <summary>
+        /// Change the target enemy and harm them with Strike.
+        /// </summary>
+        void Attack();
 
-    float Speed();
+        void Strike(IFightable enemy);
+
+        float Damage();
+
+        float Speed();
+
+    }
+
 }
