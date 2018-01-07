@@ -13,22 +13,12 @@ namespace Project.Camera
         float minZoom = 10;
         float maxZoom = 1000;
 
-        Quaternion standardRotation;
-
-        private void Awake()
-        {
-            standardRotation = transform.rotation;
-        }
 
         void Update()
         {
-            if (UnityEngine.Input.GetKey(KeyCode.Space))
+            if (UnityEngine.Input.GetKey(KeyCode.Space)) //TODO Project->Edit->Inputsettings?
             {
-               // target = Input.Instance.MouseGridPosition;
-               // if (transform.rotation.eulerAngles.y < 90)
-               // {
-                    transform.RotateAround(target, new Vector3(0.0f, 1.0f, 0.0f), 20 * Time.deltaTime * 10);
-               // }
+                transform.RotateAround(target, new Vector3(0.0f, 1.0f, 0.0f), 20 * Time.deltaTime * 10);
             }
 
             Vector3 currentPosition = transform.position;
