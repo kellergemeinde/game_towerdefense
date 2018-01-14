@@ -5,6 +5,8 @@ using UnityEngine.Networking;
 
 namespace Project {
 
-    public class NetworkBehaviour : UnityEngine.Networking.NetworkBehaviour { }
+    public class NetworkBehaviour : UnityEngine.Networking.NetworkBehaviour
+    {
+    }
 
 }
