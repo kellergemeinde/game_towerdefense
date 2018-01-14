@@ -1,17 +1,18 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+//MD5Hash:4695e6ae6aa645ecc08408b1c4574e11;
 using UnityEngine;
 
-namespace Project.Game {
 
-    public class GameState : MonoBehaviour {
+namespace Project.Game
+{
+	public class GameState : MonoBehaviour
+	{
 
-        // Use this for initialization
-        void Start() { }
 
-        // Update is called once per frame
-        void Update() { }
-
-    }
-
+		void Start()
+		{
+		}
+		void Update()
+		{
+		}
+	}
 }
