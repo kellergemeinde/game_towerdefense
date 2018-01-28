@@ -4,7 +4,7 @@ using UnityEngine;
 
 namespace Project.Entities {
 
-    public abstract class Entity : MonoBehaviour, IInteractable, IFightable, IHarmable {
+    public abstract class Entity : NetworkBehaviour, IInteractable, IFightable, IHarmable {
 
         public enum Behaviour {
 

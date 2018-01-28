@@ -58,7 +58,10 @@ namespace Project
             {
                 mouseWorldPosition =  hit.point;
             }
-            mouseWorldPosition =  Vector3.zero;
+            else
+            {
+                mouseWorldPosition = Vector3.zero;
+            }
         }
    
     }
