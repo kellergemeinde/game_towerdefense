@@ -22,6 +22,8 @@ namespace Project.Entities {
 
         private float attackSpeed;
 
+        private float attackRange;
+
         #endregion
 
         // Use this for initialization
@@ -48,6 +50,11 @@ namespace Project.Entities {
         public float AttackSpeed()
         {
             return attackSpeed;
+        }
+
+        public float AttackRange()
+        {
+            return attackRange;
         }
 
         public void Strike(IHarmable enemy)
