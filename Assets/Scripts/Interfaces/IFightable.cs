@@ -1,17 +1,16 @@
-﻿using UnityEngine;
+﻿namespace Project
+{
 
-/// <summary>
-/// Each class which can be attacked by enemys implements IFightable.
-/// </summary>
-namespace Project {
+    public interface IFightable
+    {
 
-    public interface IFightable {
+        float AttackDamage();
 
-        void TakeDamage(float damage, Vector3 hitpoint);
+        float AttackSpeed();
 
-        void Death();
+        float AttackRange();
 
-        float Life();
+        void Strike(IHarmable enemy);
 
     }
 

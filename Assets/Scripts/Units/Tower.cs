@@ -2,8 +2,11 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace Project.Entities {
+namespace Project.Units {
 
-    public class Soldier : Entity { }
+    public class Tower : Entities.UnitEntity
+    {
+
+    }
 
 }
