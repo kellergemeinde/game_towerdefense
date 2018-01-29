@@ -10,8 +10,8 @@ namespace Project.Entities {
             if (!isLocalPlayer)
                 return;
 
-            var x = UnityEngine.Input.GetAxis("Horizontal") * 0.1f;
-            var z = UnityEngine.Input.GetAxis("Vertical") * 0.1f;
+            var x = UnityEngine.Input.GetAxis("Horizontal") * 2f;
+            var z = UnityEngine.Input.GetAxis("Vertical") * 2f;
 
             transform.Translate(x, 0, z);
         }
