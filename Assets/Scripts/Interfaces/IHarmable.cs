@@ -1,17 +1,19 @@
-﻿namespace Project {
+﻿using UnityEngine;
 
-    public interface IHarmable {
+/// <summary>
+/// Each class which can be attacked by enemys implements IFightable.
+/// </summary>
+namespace Project
+{
 
-        /// <summary>
-        /// Change the target enemy and harm them with Strike.
-        /// </summary>
-        void Attack();
+    public interface IHarmable
+    {
 
-        void Strike(IFightable enemy);
+        float Health();
 
-        float Damage();
+        void TakeDamage(float damage, Vector3 hitpoint);
 
-        float Speed();
+        void Die();
 
     }
 
