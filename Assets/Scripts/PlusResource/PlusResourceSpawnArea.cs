@@ -31,7 +31,8 @@ namespace Project.Entities
             {
                 Instantiate(plusResourcePrefab, new Vector3(
                     center.x, Random.Range(minMaxY.min, minMaxY.max), Random.Range(minMaxZ.min, minMaxZ.max)), 
-                    Quaternion.identity);
+                    Quaternion.identity,
+                    GameObject.Find("Ressource").transform);
             }
         }
 

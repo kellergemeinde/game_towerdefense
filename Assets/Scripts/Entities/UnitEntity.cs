@@ -2,7 +2,7 @@
 
 namespace Project.Entities {
 
-    public abstract class UnitEntity : Behaviour, IInteractable, IFightable, IHarmable {
+    public abstract class UnitEntity : Project.NetworkBehaviour, IInteractable, IFightable, IHarmable {
 
         public enum Behaviour {
 
