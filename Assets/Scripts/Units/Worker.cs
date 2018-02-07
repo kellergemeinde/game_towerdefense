@@ -4,6 +4,11 @@ namespace Project.Units {
 
     public class Worker : Entities.UnitEntity, IMoveable, IMineable
     {
+        public override void Start()
+        {
+            base.Start();
+        }
+
         public float CurrentRessourceAmount()
         {
             throw new System.NotImplementedException();
@@ -26,7 +31,7 @@ namespace Project.Units {
 
         public void MoveTo(Vector3 destination)
         {
-            throw new System.NotImplementedException();
+            agent.destination = destination;
         }
 
         public void MoveTo(GameObject destination)
