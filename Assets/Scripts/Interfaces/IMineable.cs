@@ -14,7 +14,7 @@ namespace Project
 
         float CurrentRessourceAmount();
 
-        void Mine();
+        void Mine(PlusResource Resource);
 
     }
 

@@ -13,6 +13,7 @@ public class SpawnManager : Project.NetworkBehaviour
     public void CmdSpawnWorker()
     {
         var go = Instantiate(workerPrefab, spawnLocation.position, Quaternion.identity);
+        go.SendMessage("SetPlayer", null);
         NetworkServer.Spawn(go);
     }
 
@@ -20,6 +21,7 @@ public class SpawnManager : Project.NetworkBehaviour
     public void CmdSpawnArcher()
     {
         var go = Instantiate(archerPrefab, spawnLocation.position, Quaternion.identity);
+        go.SendMessage("SetPlayer", null);
         NetworkServer.Spawn(go);
     }
 
@@ -27,6 +29,7 @@ public class SpawnManager : Project.NetworkBehaviour
     public void CmdSpawnSoldier()
     { 
         var go = Instantiate(soldierPrefab, spawnLocation.position, Quaternion.identity);
+        go.SendMessage("SetPlayer", null);
         NetworkServer.Spawn(go);
     }
 }

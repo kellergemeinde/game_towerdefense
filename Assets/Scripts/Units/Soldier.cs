@@ -4,47 +4,22 @@ using UnityEngine;
 
 namespace Project.Units {
 
-    public class Soldier : Entities.UnitEntity, IMoveable, IMineable
+    public class Soldier : Entities.MoveEntity
     {
+
         public override void Start()
         {
             base.Start();
-        }
 
-        public float CurrentRessourceAmount()
-        {
-            throw new System.NotImplementedException();
-        }
+            health = 120;
+            attackDamage = 30;
+            attackRange = 1;
+            attackSpeed = 1.5f;
 
-        public float MaxRessourceCapacity()
-        {
-            throw new System.NotImplementedException();
-        }
-
-        public void Mine()
-        {
-            throw new System.NotImplementedException();
-        }
-
-        public float MiningSpeed()
-        {
-            throw new System.NotImplementedException();
-        }
-
-        public void MoveTo(Vector3 destination)
-        {
-            agent.destination = destination;
-        }
-
-        public void MoveTo(GameObject destination)
-        {
-            throw new System.NotImplementedException();
-        }
-
-        public float MovingSpeed()
-        {
-            throw new System.NotImplementedException();
+            currentRessourceAmount = 0;
+            maxRessourceCapacity = 25;
+            miningSpeed = 1.5f;
+            movingSpeed = 5;
         }
     }
-
 }

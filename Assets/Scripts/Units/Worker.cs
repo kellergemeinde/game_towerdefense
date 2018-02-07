@@ -2,47 +2,22 @@
 
 namespace Project.Units {
 
-    public class Worker : Entities.UnitEntity, IMoveable, IMineable
+    public class Worker : Entities.MoveEntity
     {
+
         public override void Start()
         {
             base.Start();
-        }
 
-        public float CurrentRessourceAmount()
-        {
-            throw new System.NotImplementedException();
-        }
+            health = 30;
+            attackDamage = 10;
+            attackRange = 1;
+            attackSpeed = 2;
 
-        public float MaxRessourceCapacity()
-        {
-            throw new System.NotImplementedException();
-        }
-
-        public void Mine()
-        {
-            throw new System.NotImplementedException();
-        }
-
-        public float MiningSpeed()
-        {
-            throw new System.NotImplementedException();
-        }
-
-        public void MoveTo(Vector3 destination)
-        {
-            agent.destination = destination;
-        }
-
-        public void MoveTo(GameObject destination)
-        {
-            throw new System.NotImplementedException();
-        }
-
-        public float MovingSpeed()
-        {
-            throw new System.NotImplementedException();
+            currentRessourceAmount = 0;
+            maxRessourceCapacity = 100;
+            miningSpeed = 2;
+            movingSpeed = 10;
         }
     }
-
 }

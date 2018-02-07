@@ -15,18 +15,25 @@ namespace Project.Entities {
 
         };
 
-        #region PrivateFields
+        #region Fields
 
-        private float health;
+        [HideInInspector]
+        public float health;
 
-        private float attackDamage;
+        [HideInInspector]
+        public float attackDamage;
 
-        private float attackSpeed;
+        [HideInInspector]
+        public float attackSpeed;
 
-        private float attackRange;
+        [HideInInspector]
+        public float attackRange;
 
         [HideInInspector]
         public NavMeshAgent agent;
+
+        [HideInInspector]
+        public PlayerController player;
 
         #endregion
 
@@ -37,6 +44,12 @@ namespace Project.Entities {
 
         // Update is called once per frame
         public virtual void Update() { }
+
+        public void SetPlayer(PlayerController player)
+        {
+            if (this.player == null)
+                this.player = player;
+        }
 
         public void Select()
         {
@@ -63,25 +76,37 @@ namespace Project.Entities {
             return attackRange;
         }
 
-        public void Strike(IHarmable enemy)
+        public virtual void Strike(IHarmable enemy)
         {
             throw new System.NotImplementedException();
         }
 
-        public float Health()
+        public float CurrentHealth()
         {
             return health;
         }
 
+        /// <summary>
+        /// Taking Damage
+        /// Later maybe extend with Armor or hitpoint
+        /// </summary>
+        /// <param name="damage"></param>
+        /// <param name="hitpoint"></param>
         public void TakeDamage(float damage, Vector3 hitpoint)
         {
-            throw new System.NotImplementedException();
+            if (health <= damage)
+                Die();
+            else
+                health -= damage;
         }
 
+        /// <summary>
+        /// Atm just destroying this Unit
+        /// Later Die Animation, Time, etc.
+        /// </summary>
         public void Die()
         {
-            throw new System.NotImplementedException();
+            Destroy(this);
         }
     }
-
 }
