@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.AI;
 
 namespace Project.Entities {
 
@@ -24,13 +25,18 @@ namespace Project.Entities {
 
         private float attackRange;
 
+        [HideInInspector]
+        public NavMeshAgent agent;
+
         #endregion
 
         // Use this for initialization
-        void Start() { }
+        public virtual void Start() {
+            agent = GetComponent<NavMeshAgent>();
+        }
 
         // Update is called once per frame
-        void Update() { }
+        public virtual void Update() { }
 
         public void Select()
         {
