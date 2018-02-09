@@ -1,10 +1,8 @@
-﻿using UnityEngine;
-
+﻿
 namespace Project.Units {
 
     public class Worker : Entities.MoveEntity
     {
-
         public override void Start()
         {
             base.Start();
@@ -18,6 +16,8 @@ namespace Project.Units {
             maxRessourceCapacity = 100;
             miningSpeed = 2;
             movingSpeed = 10;
+
+            MoveTo(destination);
         }
     }
 }

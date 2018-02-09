@@ -1,12 +1,8 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
+﻿
 namespace Project.Units {
 
     public class Soldier : Entities.MoveEntity
     {
-
         public override void Start()
         {
             base.Start();
@@ -20,6 +16,8 @@ namespace Project.Units {
             maxRessourceCapacity = 25;
             miningSpeed = 1.5f;
             movingSpeed = 5;
+            
+            MoveTo(destination);
         }
     }
 }

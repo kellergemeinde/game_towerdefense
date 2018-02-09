@@ -1,11 +1,8 @@
-﻿using UnityEngine;
-
+﻿
 namespace Project.Units {
 
     public class Archer : Entities.MoveEntity
     {
-
-        public Transform WhereToMove;
         public override void Start()
         {
             base.Start();
@@ -20,8 +17,7 @@ namespace Project.Units {
             miningSpeed = 1;
             movingSpeed = 8;
 
-            WhereToMove = GameObject.Find("Destination").transform;
-            MoveTo(WhereToMove.position);
+            MoveTo(destination);
         }
     }
 }
