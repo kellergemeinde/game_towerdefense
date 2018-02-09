@@ -19,6 +19,14 @@ namespace Project.Entities
             base.Start();
         }
 
+        public Vector3 destination;
+        public void SetDestination(float[] Destination)
+        {
+            destination.x = Destination[0];
+            destination.y = Destination[1];
+            destination.z = Destination[2];
+        }
+
         public float CurrentRessourceAmount()
         {
             return currentRessourceAmount;
