@@ -1,50 +1,58 @@
 ﻿using System;
+using UnityEngine;
 
 public class SpawnManager : Project.Behaviour
 {
-    public event EventHandler SpawnWorker;
-    public event EventHandler SpawnArcher;
-    public event EventHandler SpawnSoldier;
+    public delegate void SpawnEventHandler(SpawnEventArgs e);
 
-    public void OnSpawnWorker()
+    [Serializable]
+    public class SpawnEventArgs
     {
-        if (SpawnWorker != null)
-            SpawnWorker(this, EventArgs.Empty);
+        public enum Unit
+        {
+            Worker,
+            Archer,
+            Soldier
+        }
+
+        public Unit UnitToSpawn { get; set; }
+
+        public int LaneToSpawn { get; set; }
     }
 
-    public void OnSpawnArcher()
+    public event SpawnEventHandler SpawnUnit;
+
+    private int Lane;
+
+    private void Start()
     {
-        if (SpawnArcher != null)
-            SpawnArcher(this, EventArgs.Empty);
+        if (GameObject.Find("Units") == null)
+            new GameObject() { name = "Units" };
     }
 
-    public void OnSpawnSoldier()
+    public void SetLane(int Lane)
     {
-        if (SpawnSoldier != null)
-            SpawnSoldier(this, EventArgs.Empty);
+        this.Lane = Lane;
     }
 
-    //[Command]
-    //public void CmdSpawnWorker()
-    //{
-    //    var go = Instantiate(workerPrefab, spawnLocation.position, Quaternion.identity);
-    //    go.SendMessage("SetPlayer", null);
-    //    NetworkServer.Spawn(go);
-    //}
+    public void SpawnWorker()
+    {
+        if (SpawnUnit != null && Lane != 0)
+            SpawnUnit(new SpawnEventArgs() { UnitToSpawn = SpawnEventArgs.Unit.Worker, LaneToSpawn = Lane });
+        Lane = 0;
+    }
 
-    //[Command]
-    //public void CmdSpawnArcher()
-    //{
-    //    var go = Instantiate(archerPrefab, spawnLocation.position, Quaternion.identity);
-    //    go.SendMessage("SetPlayer", null);
-    //    NetworkServer.Spawn(go);
-    //}
+    public void SpawnArcher()
+    {
+        if (SpawnUnit != null && Lane != 0)
+            SpawnUnit(new SpawnEventArgs() { UnitToSpawn = SpawnEventArgs.Unit.Archer, LaneToSpawn = Lane });
+        Lane = 0;
+    }
 
-    //[Command]
-    //public void CmdSpawnSoldier()
-    //{ 
-    //    var go = Instantiate(soldierPrefab, spawnLocation.position, Quaternion.identity);
-    //    go.SendMessage("SetPlayer", null);
-    //    NetworkServer.Spawn(go);
-    //}
+    public void SpawnSoldier()
+    {
+        if (SpawnUnit != null && Lane != 0)
+            SpawnUnit(new SpawnEventArgs() { UnitToSpawn = SpawnEventArgs.Unit.Soldier, LaneToSpawn = Lane });
+        Lane = 0;
+    }
 }
