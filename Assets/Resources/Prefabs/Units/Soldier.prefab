@@ -40,7 +40,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1273025444795226}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 71.24862, y: 134.90749, z: 68.79068}
+  m_LocalPosition: {x: -7.5278916, y: 67.14913, z: -35.14379}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -143,7 +143,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_TransformSyncMode: 1
-  m_SendInterval: 0
+  m_SendInterval: 0.1
   m_SyncRotationAxis: 7
   m_RotationSyncCompression: 0
   m_SyncSpin: 0
@@ -163,7 +163,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6dc56ef8459adcd4393efff3a6d4ac58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  health: 0
+  attackDamage: 0
+  attackSpeed: 0
+  attackRange: 0
   agent: {fileID: 0}
+  player: {fileID: 0}
+  ID: 0
+  currentRessourceAmount: 0
+  maxRessourceCapacity: 0
+  miningSpeed: 0
+  movingSpeed: 0
+  destination: {x: 0, y: 0, z: 0}
 --- !u!195 &195488279105391164
 NavMeshAgent:
   m_ObjectHideFlags: 1
