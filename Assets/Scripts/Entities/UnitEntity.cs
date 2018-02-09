@@ -35,6 +35,9 @@ namespace Project.Entities {
         [HideInInspector]
         public PlayerController player;
 
+        [HideInInspector]
+        public int ID;
+
         #endregion
 
         // Use this for initialization
@@ -48,7 +51,10 @@ namespace Project.Entities {
         public void SetPlayer(PlayerController player)
         {
             if (this.player == null)
+            {
                 this.player = player;
+                this.ID = player.ID;
+            }
         }
 
         public void Select()
