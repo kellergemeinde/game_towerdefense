@@ -1,35 +1,50 @@
-﻿using UnityEngine;
-using UnityEngine.Networking;
-using System.Collections;
+﻿using System;
 
-public class SpawnManager : Project.NetworkBehaviour
+public class SpawnManager : Project.Behaviour
 {
-    public Transform spawnLocation;
-    public GameObject workerPrefab;
-    public GameObject soldierPrefab;
-    public GameObject archerPrefab;
+    public event EventHandler SpawnWorker;
+    public event EventHandler SpawnArcher;
+    public event EventHandler SpawnSoldier;
 
-    [Command]
-    public void CmdSpawnWorker()
+    public void OnSpawnWorker()
     {
-        var go = Instantiate(workerPrefab, spawnLocation.position, Quaternion.identity);
-        go.SendMessage("SetPlayer", null);
-        NetworkServer.Spawn(go);
+        if (SpawnWorker != null)
+            SpawnWorker(this, EventArgs.Empty);
     }
 
-    [Command]
-    public void CmdSpawnArcher()
+    public void OnSpawnArcher()
     {
-        var go = Instantiate(archerPrefab, spawnLocation.position, Quaternion.identity);
-        go.SendMessage("SetPlayer", null);
-        NetworkServer.Spawn(go);
+        if (SpawnArcher != null)
+            SpawnArcher(this, EventArgs.Empty);
     }
 
-    [Command]
-    public void CmdSpawnSoldier()
-    { 
-        var go = Instantiate(soldierPrefab, spawnLocation.position, Quaternion.identity);
-        go.SendMessage("SetPlayer", null);
-        NetworkServer.Spawn(go);
+    public void OnSpawnSoldier()
+    {
+        if (SpawnSoldier != null)
+            SpawnSoldier(this, EventArgs.Empty);
     }
+
+    //[Command]
+    //public void CmdSpawnWorker()
+    //{
+    //    var go = Instantiate(workerPrefab, spawnLocation.position, Quaternion.identity);
+    //    go.SendMessage("SetPlayer", null);
+    //    NetworkServer.Spawn(go);
+    //}
+
+    //[Command]
+    //public void CmdSpawnArcher()
+    //{
+    //    var go = Instantiate(archerPrefab, spawnLocation.position, Quaternion.identity);
+    //    go.SendMessage("SetPlayer", null);
+    //    NetworkServer.Spawn(go);
+    //}
+
+    //[Command]
+    //public void CmdSpawnSoldier()
+    //{ 
+    //    var go = Instantiate(soldierPrefab, spawnLocation.position, Quaternion.identity);
+    //    go.SendMessage("SetPlayer", null);
+    //    NetworkServer.Spawn(go);
+    //}
 }
