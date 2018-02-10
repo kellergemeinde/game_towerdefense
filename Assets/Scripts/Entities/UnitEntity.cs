@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using UnityEngine.AI;
+using UnityEngine.Networking;
 
 namespace Project.Entities {
 
@@ -33,9 +34,6 @@ namespace Project.Entities {
         public NavMeshAgent agent;
 
         [HideInInspector]
-        public PlayerController player;
-
-        [HideInInspector]
         public int ID;
 
         #endregion
@@ -48,13 +46,9 @@ namespace Project.Entities {
         // Update is called once per frame
         public virtual void Update() { }
 
-        public void SetPlayer(PlayerController player)
+        public void SetPlayer(int ID)
         {
-            if (this.player == null)
-            {
-                this.player = player;
-                this.ID = player.ID;
-            }
+            this.ID = ID;
         }
 
         public void Select()

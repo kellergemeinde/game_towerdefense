@@ -12,12 +12,14 @@ public class PlayerController : Project.NetworkBehaviour
     [SerializeField]
     public float[] Destination;
 
+    [SerializeField]
+    public int ID { get; private set; }
+
     public Transform SpawnLocation;
     public GameObject workerPrefab;
     public GameObject soldierPrefab;
     public GameObject archerPrefab;
 
-    public int ID { get; private set; }
     private GameObject PlayerUnitsEmpty;
 
     private static SpawnManager SpawnManager;
@@ -29,6 +31,8 @@ public class PlayerController : Project.NetworkBehaviour
     {
         MaxID++;
         ID = MaxID;
+
+        transform.gameObject.name = "Player" + ID;
 
         if (SpawnManager == null)
             SpawnManager = GameObject.Find("SpawnManager").GetComponent<SpawnManager>();
@@ -64,13 +68,13 @@ public class PlayerController : Project.NetworkBehaviour
         switch (e.UnitToSpawn)
         {
             case SpawnManager.SpawnEventArgs.Unit.Worker:
-                CmdSpawnWorker(Destination);
+                CmdSpawnWorker(this.ID, Destination);
                 break;
             case SpawnManager.SpawnEventArgs.Unit.Archer:
-                CmdSpawnArcher(Destination);
+                CmdSpawnArcher(this.ID, Destination);
                 break;
             case SpawnManager.SpawnEventArgs.Unit.Soldier:
-                CmdSpawnSoldier(Destination);
+                CmdSpawnSoldier(this.ID, Destination);
                 break;
             default:
                 throw new NotImplementedException();
@@ -79,29 +83,38 @@ public class PlayerController : Project.NetworkBehaviour
     }
 
     [Command]
-    private void CmdSpawnWorker(float[] Destination)
+    private void CmdSpawnWorker(int ID, float[] Destination)
     {
-        var go = Instantiate(workerPrefab, SpawnLocation.position, Quaternion.identity, PlayerUnitsEmpty.transform);
-        go.SendMessage("SetPlayer", this);
+        var go = Instantiate(workerPrefab, SpawnLocation.position, Quaternion.identity);
+        go.SendMessage("SetPlayer", ID);
         go.SendMessage("SetDestination", Destination);
         NetworkServer.Spawn(go);
+        RpcSyncParentOnce(go, ID);
     }
 
     [Command]
-    private void CmdSpawnArcher(float[] Destination)
+    private void CmdSpawnArcher(int ID, float[] Destination)
     {
-        var go = Instantiate(archerPrefab, SpawnLocation.position, Quaternion.identity, PlayerUnitsEmpty.transform);
-        go.SendMessage("SetPlayer", this);
+        var go = Instantiate(archerPrefab, SpawnLocation.position, Quaternion.identity);
+        go.SendMessage("SetPlayer", ID);
         go.SendMessage("SetDestination", Destination);
         NetworkServer.Spawn(go);
+        RpcSyncParentOnce(go, ID);
     }
 
     [Command]
-    private void CmdSpawnSoldier(float[] Destination)
+    private void CmdSpawnSoldier(int ID, float[] Destination)
     {
-        var go = Instantiate(soldierPrefab, SpawnLocation.position, Quaternion.identity, PlayerUnitsEmpty.transform);
-        go.SendMessage("SetPlayer", this);
+        var go = Instantiate(soldierPrefab, SpawnLocation.position, Quaternion.identity);
+        go.SendMessage("SetPlayer", ID);
         go.SendMessage("SetDestination", Destination);
         NetworkServer.Spawn(go);
+        RpcSyncParentOnce(go, ID);
+    }
+
+    [ClientRpc]
+    private void RpcSyncParentOnce(GameObject go, int ID)
+    {
+        go.transform.parent = GameObject.Find("Units/Player" + ID).transform;
     }
 }
