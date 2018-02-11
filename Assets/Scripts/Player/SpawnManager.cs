@@ -1,32 +1,58 @@
-﻿using UnityEngine;
-using UnityEngine.Networking;
-using System.Collections;
+﻿using System;
+using UnityEngine;
 
-public class SpawnManager : Project.NetworkBehaviour
+public class SpawnManager : Project.Behaviour
 {
-    public Transform spawnLocation;
-    public GameObject workerPrefab;
-    public GameObject soldierPrefab;
-    public GameObject archerPrefab;
+    public delegate void SpawnEventHandler(SpawnEventArgs e);
 
-    [Command]
-    public void CmdSpawnWorker()
+    [Serializable]
+    public class SpawnEventArgs
     {
-        var go = Instantiate(workerPrefab, spawnLocation.position, Quaternion.identity);
-        NetworkServer.Spawn(go);
+        public enum Unit
+        {
+            Worker,
+            Archer,
+            Soldier
+        }
+
+        public Unit UnitToSpawn { get; set; }
+
+        public int LaneToSpawn { get; set; }
     }
 
-    [Command]
-    public void CmdSpawnArcher()
+    public event SpawnEventHandler SpawnUnit;
+
+    private int Lane;
+
+    private void Start()
     {
-        var go = Instantiate(archerPrefab, spawnLocation.position, Quaternion.identity);
-        NetworkServer.Spawn(go);
+        if (GameObject.Find("Units") == null)
+            new GameObject() { name = "Units" };
     }
 
-    [Command]
-    public void CmdSpawnSoldier()
-    { 
-        var go = Instantiate(soldierPrefab, spawnLocation.position, Quaternion.identity);
-        NetworkServer.Spawn(go);
+    public void SetLane(int Lane)
+    {
+        this.Lane = Lane;
+    }
+
+    public void SpawnWorker()
+    {
+        if (SpawnUnit != null && Lane != 0)
+            SpawnUnit(new SpawnEventArgs() { UnitToSpawn = SpawnEventArgs.Unit.Worker, LaneToSpawn = Lane });
+        Lane = 0;
+    }
+
+    public void SpawnArcher()
+    {
+        if (SpawnUnit != null && Lane != 0)
+            SpawnUnit(new SpawnEventArgs() { UnitToSpawn = SpawnEventArgs.Unit.Archer, LaneToSpawn = Lane });
+        Lane = 0;
+    }
+
+    public void SpawnSoldier()
+    {
+        if (SpawnUnit != null && Lane != 0)
+            SpawnUnit(new SpawnEventArgs() { UnitToSpawn = SpawnEventArgs.Unit.Soldier, LaneToSpawn = Lane });
+        Lane = 0;
     }
 }

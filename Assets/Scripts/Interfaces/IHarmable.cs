@@ -9,7 +9,7 @@ namespace Project
     public interface IHarmable
     {
 
-        float Health();
+        float CurrentHealth();
 
         void TakeDamage(float damage, Vector3 hitpoint);
 
