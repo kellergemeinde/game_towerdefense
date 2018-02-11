@@ -1,4 +1,6 @@
 ﻿using UnityEngine;
+using UnityEngine.AI;
+using UnityEngine.Networking;
 
 namespace Project.Entities {
 
@@ -14,23 +16,40 @@ namespace Project.Entities {
 
         };
 
-        #region PrivateFields
+        #region Fields
 
-        private float health;
+        [HideInInspector]
+        public float health;
 
-        private float attackDamage;
+        [HideInInspector]
+        public float attackDamage;
 
-        private float attackSpeed;
+        [HideInInspector]
+        public float attackSpeed;
 
-        private float attackRange;
+        [HideInInspector]
+        public float attackRange;
+
+        [HideInInspector]
+        public NavMeshAgent agent;
+
+        [HideInInspector]
+        public int ID;
 
         #endregion
 
         // Use this for initialization
-        void Start() { }
+        public virtual void Start() {
+            agent = GetComponent<NavMeshAgent>();
+        }
 
         // Update is called once per frame
-        void Update() { }
+        public virtual void Update() { }
+
+        public void SetPlayer(int ID)
+        {
+            this.ID = ID;
+        }
 
         public void Select()
         {
@@ -57,25 +76,37 @@ namespace Project.Entities {
             return attackRange;
         }
 
-        public void Strike(IHarmable enemy)
+        public virtual void Strike(IHarmable enemy)
         {
             throw new System.NotImplementedException();
         }
 
-        public float Health()
+        public float CurrentHealth()
         {
             return health;
         }
 
+        /// <summary>
+        /// Taking Damage
+        /// Later maybe extend with Armor or hitpoint
+        /// </summary>
+        /// <param name="damage"></param>
+        /// <param name="hitpoint"></param>
         public void TakeDamage(float damage, Vector3 hitpoint)
         {
-            throw new System.NotImplementedException();
+            if (health <= damage)
+                Die();
+            else
+                health -= damage;
         }
 
+        /// <summary>
+        /// Atm just destroying this Unit
+        /// Later Die Animation, Time, etc.
+        /// </summary>
         public void Die()
         {
-            throw new System.NotImplementedException();
+            Destroy(this);
         }
     }
-
 }

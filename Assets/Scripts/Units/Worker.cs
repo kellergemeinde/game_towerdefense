@@ -1,43 +1,23 @@
-﻿using UnityEngine;
-
+﻿
 namespace Project.Units {
 
-    public class Worker : Entities.UnitEntity, IMoveable, IMineable
+    public class Worker : Entities.MoveEntity
     {
-        public float CurrentRessourceAmount()
+        public override void Start()
         {
-            throw new System.NotImplementedException();
-        }
+            base.Start();
 
-        public float MaxRessourceCapacity()
-        {
-            throw new System.NotImplementedException();
-        }
+            health = 30;
+            attackDamage = 10;
+            attackRange = 1;
+            attackSpeed = 2;
 
-        public void Mine()
-        {
-            throw new System.NotImplementedException();
-        }
+            currentRessourceAmount = 0;
+            maxRessourceCapacity = 100;
+            miningSpeed = 2;
+            movingSpeed = 10;
 
-        public float MiningSpeed()
-        {
-            throw new System.NotImplementedException();
-        }
-
-        public void MoveTo(Vector3 destination)
-        {
-            throw new System.NotImplementedException();
-        }
-
-        public void MoveTo(GameObject destination)
-        {
-            throw new System.NotImplementedException();
-        }
-
-        public float MovingSpeed()
-        {
-            throw new System.NotImplementedException();
+            MoveTo(destination);
         }
     }
-
 }

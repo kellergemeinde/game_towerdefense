@@ -1,43 +1,23 @@
-﻿using UnityEngine;
-
+﻿
 namespace Project.Units {
 
-    public class Archer : Entities.UnitEntity, IMoveable, IMineable
+    public class Archer : Entities.MoveEntity
     {
-        public float CurrentRessourceAmount()
+        public override void Start()
         {
-            throw new System.NotImplementedException();
-        }
+            base.Start();
 
-        public float MaxRessourceCapacity()
-        {
-            throw new System.NotImplementedException();
-        }
+            health = 50;
+            attackDamage = 20;
+            attackRange = 10;
+            attackSpeed = 1;
 
-        public void Mine()
-        {
-            throw new System.NotImplementedException();
-        }
+            currentRessourceAmount = 0;
+            maxRessourceCapacity = 10;
+            miningSpeed = 1;
+            movingSpeed = 8;
 
-        public float MiningSpeed()
-        {
-            throw new System.NotImplementedException();
-        }
-
-        public void MoveTo(Vector3 destination)
-        {
-            throw new System.NotImplementedException();
-        }
-
-        public void MoveTo(GameObject destination)
-        {
-            throw new System.NotImplementedException();
-        }
-
-        public float MovingSpeed()
-        {
-            throw new System.NotImplementedException();
+            MoveTo(destination);
         }
     }
-
 }

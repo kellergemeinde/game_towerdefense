@@ -35,7 +35,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1647966787082432}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 40, z: 0}
+  m_LocalPosition: {x: 22.75488, y: 11, z: -0.5502026}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -53,7 +53,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnLocation: {fileID: 0}
-  worker: {fileID: 1403491582078822, guid: 6fffac7be437acf45b857f6b9403f1fe, type: 2}
+  workerPrefab: {fileID: 1680170098559744, guid: 6fffac7be437acf45b857f6b9403f1fe,
+    type: 2}
+  soldierPrefab: {fileID: 1273025444795226, guid: cea47a2b6b7f0b94a83f22ff42ee1de8,
+    type: 2}
+  archerPrefab: {fileID: 1838771813028268, guid: e5f3fa3b13fcc4f4fb76ee030ae9db81,
+    type: 2}
 --- !u!114 &114170207814619444
 MonoBehaviour:
   m_ObjectHideFlags: 1
