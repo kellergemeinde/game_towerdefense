@@ -78,7 +78,6 @@ public class PlayerController : Project.NetworkBehaviour
                 break;
             default:
                 throw new NotImplementedException();
-                //break;
         }
     }
 
@@ -111,7 +110,7 @@ public class PlayerController : Project.NetworkBehaviour
         NetworkServer.Spawn(go);
         RpcSyncParentOnce(go, ID);
     }
-
+    
     [ClientRpc]
     private void RpcSyncParentOnce(GameObject go, int ID)
     {
