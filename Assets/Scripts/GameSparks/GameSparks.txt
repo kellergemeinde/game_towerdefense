@@ -1,0 +1,2 @@
+Back-End for Kellermächte.
+Runs several scripts in the cloud and stores all the user data.

@@ -22,6 +22,9 @@ namespace Project.Entities {
         public float health;
 
         [HideInInspector]
+        public float maxHealth;
+
+        [HideInInspector]
         public float attackDamage;
 
         [HideInInspector]
