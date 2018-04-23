@@ -1,0 +1,1 @@
+Scenes like the main scene, intro or gameover.

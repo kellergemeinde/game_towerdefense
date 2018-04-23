@@ -6,15 +6,15 @@ using UnityEngine.Networking;
 
 namespace Project
 {
-    [Serializable]
+    //[Serializable]
     public class PlayerController : Project.NetworkBehaviour
     {
         public static int MaxID { get; private set; }
 
-        [SerializeField]
+        //[SerializeField]
         public float[] Destination;
 
-        [SerializeField]
+        //[SerializeField]
         public int ID { get; private set; }
 
         public Transform SpawnLocation;
@@ -83,7 +83,7 @@ namespace Project
             }
         }
 
-        [Command]
+        //[Command]
         private void CmdSpawnWorker(int ID, float[] Destination)
         {
             var go = Instantiate(workerPrefab, SpawnLocation.position, Quaternion.identity);
@@ -93,7 +93,7 @@ namespace Project
             RpcSyncParentOnce(go, ID);
         }
 
-        [Command]
+        //[Command]
         private void CmdSpawnArcher(int ID, float[] Destination)
         {
             var go = Instantiate(archerPrefab, SpawnLocation.position, Quaternion.identity);
@@ -103,7 +103,7 @@ namespace Project
             RpcSyncParentOnce(go, ID);
         }
 
-        [Command]
+        //[Command]
         private void CmdSpawnSoldier(int ID, float[] Destination)
         {
             var go = Instantiate(soldierPrefab, SpawnLocation.position, Quaternion.identity);
@@ -113,7 +113,7 @@ namespace Project
             RpcSyncParentOnce(go, ID);
         }
 
-        [ClientRpc]
+        //[ClientRpc]
         private void RpcSyncParentOnce(GameObject go, int ID)
         {
             go.transform.parent = GameObject.Find("Units/Player" + ID).transform;
