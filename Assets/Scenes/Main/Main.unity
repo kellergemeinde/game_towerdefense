@@ -3513,6 +3513,11 @@ Prefab:
       propertyPath: m_Name
       value: Tower1
       objectReference: {fileID: 0}
+    - target: {fileID: 114381576868490026, guid: 32d1d3dd0237814428b4264492d5ebd5,
+        type: 2}
+      propertyPath: transformSyncMode
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 32d1d3dd0237814428b4264492d5ebd5, type: 2}
   m_IsPrefabParent: 0

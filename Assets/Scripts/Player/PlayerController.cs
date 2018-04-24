@@ -56,14 +56,14 @@ namespace Project
         // Update is called once per frame
         void Update()
         {
-            if (!isLocalPlayer)
-                return;
+            //if (!isLocalPlayer)
+                //return;
         }
 
         private void SpawnUnit(SpawnManager.SpawnEventArgs e)
         {
-            if (!isLocalPlayer)
-                return;
+            //if (!isLocalPlayer)
+                //return;
 
             Destination = new float[] { LaneShields[e.LaneToSpawn - 1].position.x + 0.5f, LaneShields[e.LaneToSpawn - 1].position.y, LaneShields[e.LaneToSpawn - 1].position.z };
 
