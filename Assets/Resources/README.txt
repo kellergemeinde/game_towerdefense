@@ -1,1 +1,0 @@
-Contains different dynamic resources for scenes: https://docs.unity3d.com/ScriptReference/Resources.html

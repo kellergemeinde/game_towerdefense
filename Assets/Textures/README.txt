@@ -1,1 +1,0 @@
-Contains ingame and ui 2d textures.
