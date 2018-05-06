@@ -4,13 +4,13 @@ namespace Project.Entities
 {
     public class PlusResourceSpawnArea : NetworkBehaviour
     {
-        [SerializeField]
+        //[SerializeField]
         private int amountOfPlusAtTheBeginning;
 
-        [SerializeField]
+        //[SerializeField]
         private GameObject plusSpawnArea;
 
-        [SerializeField]
+        //[SerializeField]
         private GameObject plusResourcePrefab;
 
         private RangeAttribute minMaxX;

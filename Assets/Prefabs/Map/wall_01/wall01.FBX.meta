@@ -1,0 +1,356 @@
+fileFormatVersion: 2
+guid: c23cf46097018354c8842279d087be10
+timeCreated: 1520786850
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Cylinder020
+    100002: Cylinder021
+    100004: Cylinder022
+    100006: Cylinder028
+    100008: Cylinder029
+    100010: Cylinder030
+    100012: Cylinder032
+    100014: Cylinder033
+    100016: Cylinder034
+    100018: Cylinder035
+    100020: Cylinder036
+    100022: Cylinder037
+    100024: Cylinder038
+    100026: Cylinder039
+    100028: Cylinder040
+    100030: Cylinder041
+    100032: Cylinder042
+    100034: Object083
+    100036: Object084
+    100038: Object085
+    100040: Object087
+    100042: Object088
+    100044: Object089
+    100046: Object100
+    100048: Object101
+    100050: Object102
+    100052: Object104
+    100054: Object105
+    100056: Object107
+    100058: Object108
+    100060: Object109
+    100062: Object111
+    100064: Object112
+    100066: Object114
+    100068: Object115
+    100070: Object116
+    100072: Object117
+    100074: Object120
+    100076: Object121
+    100078: Object122
+    100080: Object123
+    100082: Object124
+    100084: Object125
+    100086: Object176
+    100088: Object182
+    100090: Object183
+    100092: Object184
+    100094: Object185
+    100096: Object186
+    100098: Wall 006
+    100100: Wall 007
+    100102: Wall 008
+    100104: Wall 009
+    100106: //RootNode
+    400000: Cylinder020
+    400002: Cylinder021
+    400004: Cylinder022
+    400006: Cylinder028
+    400008: Cylinder029
+    400010: Cylinder030
+    400012: Cylinder032
+    400014: Cylinder033
+    400016: Cylinder034
+    400018: Cylinder035
+    400020: Cylinder036
+    400022: Cylinder037
+    400024: Cylinder038
+    400026: Cylinder039
+    400028: Cylinder040
+    400030: Cylinder041
+    400032: Cylinder042
+    400034: Object083
+    400036: Object084
+    400038: Object085
+    400040: Object087
+    400042: Object088
+    400044: Object089
+    400046: Object100
+    400048: Object101
+    400050: Object102
+    400052: Object104
+    400054: Object105
+    400056: Object107
+    400058: Object108
+    400060: Object109
+    400062: Object111
+    400064: Object112
+    400066: Object114
+    400068: Object115
+    400070: Object116
+    400072: Object117
+    400074: Object120
+    400076: Object121
+    400078: Object122
+    400080: Object123
+    400082: Object124
+    400084: Object125
+    400086: Object176
+    400088: Object182
+    400090: Object183
+    400092: Object184
+    400094: Object185
+    400096: Object186
+    400098: Wall 006
+    400100: Wall 007
+    400102: Wall 008
+    400104: Wall 009
+    400106: //RootNode
+    2100000: 01 - Default
+    2100002: 03 - Default
+    2300000: Cylinder020
+    2300002: Cylinder021
+    2300004: Cylinder022
+    2300006: Cylinder028
+    2300008: Cylinder029
+    2300010: Cylinder030
+    2300012: Cylinder032
+    2300014: Cylinder033
+    2300016: Cylinder034
+    2300018: Cylinder035
+    2300020: Cylinder036
+    2300022: Cylinder037
+    2300024: Cylinder038
+    2300026: Cylinder039
+    2300028: Cylinder040
+    2300030: Cylinder041
+    2300032: Cylinder042
+    2300034: Object083
+    2300036: Object084
+    2300038: Object085
+    2300040: Object087
+    2300042: Object088
+    2300044: Object089
+    2300046: Object100
+    2300048: Object101
+    2300050: Object102
+    2300052: Object104
+    2300054: Object105
+    2300056: Object107
+    2300058: Object108
+    2300060: Object109
+    2300062: Object111
+    2300064: Object112
+    2300066: Object114
+    2300068: Object115
+    2300070: Object116
+    2300072: Object117
+    2300074: Object120
+    2300076: Object121
+    2300078: Object122
+    2300080: Object123
+    2300082: Object124
+    2300084: Object125
+    2300086: Object176
+    2300088: Object182
+    2300090: Object183
+    2300092: Object184
+    2300094: Object185
+    2300096: Object186
+    2300098: Wall 006
+    2300100: Wall 007
+    2300102: Wall 008
+    2300104: Wall 009
+    3300000: Cylinder020
+    3300002: Cylinder021
+    3300004: Cylinder022
+    3300006: Cylinder028
+    3300008: Cylinder029
+    3300010: Cylinder030
+    3300012: Cylinder032
+    3300014: Cylinder033
+    3300016: Cylinder034
+    3300018: Cylinder035
+    3300020: Cylinder036
+    3300022: Cylinder037
+    3300024: Cylinder038
+    3300026: Cylinder039
+    3300028: Cylinder040
+    3300030: Cylinder041
+    3300032: Cylinder042
+    3300034: Object083
+    3300036: Object084
+    3300038: Object085
+    3300040: Object087
+    3300042: Object088
+    3300044: Object089
+    3300046: Object100
+    3300048: Object101
+    3300050: Object102
+    3300052: Object104
+    3300054: Object105
+    3300056: Object107
+    3300058: Object108
+    3300060: Object109
+    3300062: Object111
+    3300064: Object112
+    3300066: Object114
+    3300068: Object115
+    3300070: Object116
+    3300072: Object117
+    3300074: Object120
+    3300076: Object121
+    3300078: Object122
+    3300080: Object123
+    3300082: Object124
+    3300084: Object125
+    3300086: Object176
+    3300088: Object182
+    3300090: Object183
+    3300092: Object184
+    3300094: Object185
+    3300096: Object186
+    3300098: Wall 006
+    3300100: Wall 007
+    3300102: Wall 008
+    3300104: Wall 009
+    4300000: Cylinder020
+    4300002: Cylinder021
+    4300004: Cylinder022
+    4300006: Object083
+    4300008: Object084
+    4300010: Object085
+    4300012: Object087
+    4300014: Object088
+    4300016: Object089
+    4300018: Cylinder028
+    4300020: Cylinder029
+    4300022: Cylinder030
+    4300024: Object100
+    4300026: Object101
+    4300028: Object102
+    4300030: Object104
+    4300032: Object105
+    4300034: Cylinder032
+    4300036: Cylinder033
+    4300038: Cylinder034
+    4300040: Object107
+    4300042: Object108
+    4300044: Object109
+    4300046: Object111
+    4300048: Object112
+    4300050: Wall 006
+    4300052: Object114
+    4300054: Object115
+    4300056: Object116
+    4300058: Object117
+    4300060: Object120
+    4300062: Object121
+    4300064: Cylinder035
+    4300066: Cylinder036
+    4300068: Cylinder037
+    4300070: Cylinder038
+    4300072: Object122
+    4300074: Object123
+    4300076: Object124
+    4300078: Object125
+    4300080: Cylinder039
+    4300082: Cylinder040
+    4300084: Cylinder041
+    4300086: Object176
+    4300088: Cylinder042
+    4300090: Object182
+    4300092: Object183
+    4300094: Object184
+    4300096: Object185
+    4300098: Object186
+    4300100: Wall 007
+    4300102: Wall 008
+    4300104: Wall 009
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
