@@ -30,8 +30,11 @@ namespace Project.Entities
                 */
 
             // Update health bar
-            float healthInProcent = EntityWithHealth.health / EntityWithHealth.maxHealth;
-            Healthbar.transform.localScale = new Vector3(healthInProcent, 1, 1);
+            if (EntityWithHealth != null)
+            {
+                float healthInProcent = EntityWithHealth.health / EntityWithHealth.maxHealth;
+                Healthbar.transform.localScale = new Vector3(healthInProcent, 1, 1);
+            }
         }
     }
 }
