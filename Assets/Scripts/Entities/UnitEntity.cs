@@ -19,10 +19,10 @@ namespace Project.Entities {
         #region Fields
 
         [HideInInspector]
-        public float health;
+        public float maxHealth = 100;
 
         [HideInInspector]
-        public float maxHealth;
+        public float health = 100;
 
         [HideInInspector]
         public float attackDamage;

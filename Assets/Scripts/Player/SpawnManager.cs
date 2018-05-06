@@ -5,7 +5,7 @@ public class SpawnManager : Project.Behaviour
 {
     public delegate void SpawnEventHandler(SpawnEventArgs e);
 
-    [Serializable]
+    //[Serializable]
     public class SpawnEventArgs
     {
         public enum Unit

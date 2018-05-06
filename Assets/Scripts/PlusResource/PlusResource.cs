@@ -6,7 +6,7 @@ namespace Project {
 
     public class PlusResource : Behaviour {
 
-        [SerializeField]
+        //[SerializeField]
         private float amountOfPlus = 100f;
 
         public float AmountOfPlus { get { return amountOfPlus; } private set { amountOfPlus = value; } }
