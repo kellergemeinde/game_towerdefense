@@ -1,0 +1,1 @@
+All meshes will be stored inside this folder and sub folders. Inside the sub folders are the related materials etc.
