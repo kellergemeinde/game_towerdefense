@@ -1,28 +1,23 @@
 fileFormatVersion: 2
-guid: 69e1cdd9f35d2014daacaaa6690fb8f0
-timeCreated: 1525992050
+guid: f6150dacc6692624ba85d9b76609b88f
+timeCreated: 1525995869
 licenseType: Free
 ModelImporter:
   serializedVersion: 22
   fileIDToRecycleName:
-    100000: Gatlin
-    100002: //RootNode
-    100004: Holder
-    100006: Tower
-    400000: Gatlin
-    400002: //RootNode
-    400004: Holder
-    400006: Tower
+    100000: //RootNode
+    100002: TeslaCannon
+    100004: Tower
+    400000: //RootNode
+    400002: TeslaCannon
+    400004: Tower
     2100000: No Name
-    2300000: Gatlin
-    2300002: Holder
-    2300004: Tower
-    3300000: Gatlin
-    3300002: Holder
-    3300004: Tower
-    4300000: Gatlin
+    2300000: TeslaCannon
+    2300002: Tower
+    3300000: TeslaCannon
+    3300002: Tower
+    4300000: TeslaCannon
     4300002: Tower
-    4300004: Holder
   externalObjects: {}
   materials:
     importMaterials: 1

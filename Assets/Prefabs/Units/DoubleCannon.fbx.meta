@@ -1,33 +1,23 @@
 fileFormatVersion: 2
-guid: 31d1cc084eda87742a81c20f1da1f7b6
-timeCreated: 1525992050
+guid: 589847f588eba274b88b6e75d97765ee
+timeCreated: 1525995869
 licenseType: Free
 ModelImporter:
   serializedVersion: 22
   fileIDToRecycleName:
-    100000: 4x6 MissleLauncher
-    100002: //RootNode
-    100004: Holder
-    100006: RocketCones
-    100008: Tower
-    400000: 4x6 MissleLauncher
-    400002: //RootNode
-    400004: Holder
-    400006: RocketCones
-    400008: Tower
+    100000: //RootNode
+    100002: DoubleCannon
+    100004: Tower
+    400000: //RootNode
+    400002: DoubleCannon
+    400004: Tower
     2100000: No Name
-    2300000: 4x6 MissleLauncher
-    2300002: Holder
-    2300004: RocketCones
-    2300006: Tower
-    3300000: 4x6 MissleLauncher
-    3300002: Holder
-    3300004: RocketCones
-    3300006: Tower
-    4300000: 4x6 MissleLauncher
-    4300002: RocketCones
-    4300004: Tower
-    4300006: Holder
+    2300000: DoubleCannon
+    2300002: Tower
+    3300000: DoubleCannon
+    3300002: Tower
+    4300000: DoubleCannon
+    4300002: Tower
   externalObjects: {}
   materials:
     importMaterials: 1
