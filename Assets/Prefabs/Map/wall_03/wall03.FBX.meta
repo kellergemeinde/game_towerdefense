@@ -10,25 +10,108 @@ ModelImporter:
     100004: Object099
     100006: Wall 3
     100008: //RootNode
+    100010: "Gel\xE4nder_003"
+    100012: "R\xF6hre_003"
+    100014: "R\xF6hren__Halterung_003"
+    100016: Wall_3_003
+    100018: "Gel\xE4nder_003_3"
+    100020: "R\xF6hre_003_2"
+    100022: "R\xF6hren__Halterung_003_2"
+    100024: Wall_3_003_2
+    100026: "Gel\xE4nder_003_3_2_2"
+    100028: "R\xF6hre_003_2_2_2"
+    100030: "R\xF6hren__Halterung_003_2_2_2"
+    100032: Wall_3_003_2_2_2
+    100034: "Gel\xE4nder"
+    100036: "R\xF6hre"
+    100038: "R\xF6hren_Halterung"
+    100040: Wall_3
     400000: Box003
     400002: Line005
     400004: Object099
     400006: Wall 3
     400008: //RootNode
+    400010: "Gel\xE4nder_003"
+    400012: "R\xF6hre_003"
+    400014: "R\xF6hren__Halterung_003"
+    400016: Wall_3_003
+    400018: "Gel\xE4nder_003_3"
+    400020: "R\xF6hre_003_2"
+    400022: "R\xF6hren__Halterung_003_2"
+    400024: Wall_3_003_2
+    400026: "Gel\xE4nder_003_3_2_2"
+    400028: "R\xF6hre_003_2_2_2"
+    400030: "R\xF6hren__Halterung_003_2_2_2"
+    400032: Wall_3_003_2_2_2
+    400034: "Gel\xE4nder"
+    400036: "R\xF6hre"
+    400038: "R\xF6hren_Halterung"
+    400040: Wall_3
     2100000: 03 - Default
     2100002: 01 - Default
+    2100004: 01 - Default.005
+    2100006: 03 - Default.001
+    2100008: No Name
     2300000: Box003
     2300002: Line005
     2300004: Object099
     2300006: Wall 3
+    2300008: "Gel\xE4nder_003"
+    2300010: "R\xF6hre_003"
+    2300012: "R\xF6hren__Halterung_003"
+    2300014: Wall_3_003
+    2300016: "Gel\xE4nder_003_3"
+    2300018: "R\xF6hre_003_2"
+    2300020: "R\xF6hren__Halterung_003_2"
+    2300022: Wall_3_003_2
+    2300024: "Gel\xE4nder_003_3_2_2"
+    2300026: "R\xF6hre_003_2_2_2"
+    2300028: "R\xF6hren__Halterung_003_2_2_2"
+    2300030: Wall_3_003_2_2_2
+    2300032: "Gel\xE4nder"
+    2300034: "R\xF6hre"
+    2300036: "R\xF6hren_Halterung"
+    2300038: Wall_3
     3300000: Box003
     3300002: Line005
     3300004: Object099
     3300006: Wall 3
+    3300008: "Gel\xE4nder_003"
+    3300010: "R\xF6hre_003"
+    3300012: "R\xF6hren__Halterung_003"
+    3300014: Wall_3_003
+    3300016: "Gel\xE4nder_003_3"
+    3300018: "R\xF6hre_003_2"
+    3300020: "R\xF6hren__Halterung_003_2"
+    3300022: Wall_3_003_2
+    3300024: "Gel\xE4nder_003_3_2_2"
+    3300026: "R\xF6hre_003_2_2_2"
+    3300028: "R\xF6hren__Halterung_003_2_2_2"
+    3300030: Wall_3_003_2_2_2
+    3300032: "Gel\xE4nder"
+    3300034: "R\xF6hre"
+    3300036: "R\xF6hren_Halterung"
+    3300038: Wall_3
     4300000: Line005
     4300002: Object099
     4300004: Wall 3
     4300006: Box003
+    4300008: "Gel\xE4nder_003"
+    4300010: "R\xF6hre_003"
+    4300012: "R\xF6hren__Halterung_003"
+    4300014: Wall_3_003
+    4300016: "Gel\xE4nder_003_3"
+    4300018: "R\xF6hre_003_2"
+    4300020: "R\xF6hren__Halterung_003_2"
+    4300022: Wall_3_003_2
+    4300024: "Gel\xE4nder_003_3_2_2"
+    4300026: "R\xF6hre_003_2_2_2"
+    4300028: "R\xF6hren__Halterung_003_2_2_2"
+    4300030: Wall_3_003_2_2_2
+    4300032: "Gel\xE4nder"
+    4300034: "R\xF6hre"
+    4300036: "R\xF6hren_Halterung"
+    4300038: Wall_3
   externalObjects: {}
   materials:
     importMaterials: 1

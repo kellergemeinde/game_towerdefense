@@ -1,0 +1,177 @@
+fileFormatVersion: 2
+guid: 330f6e4ad206b4f4a8799fb00e9ca4e2
+timeCreated: 1526938943
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Gate001_Append
+    100002: Gate002_Append
+    100004: Gate003_Append
+    100006: Gate004_Append
+    100008: Gate005_Append
+    100010: Gate_Halterung_2
+    100012: Gate_Halterung_21
+    100014: Gate_Halterung_21_001
+    100016: Gate_Halterung_21_002
+    100018: Gate_Halterung_21_003
+    100020: Gate_Halterung_21_004
+    100022: Gate_Halterung_2_001
+    100024: Gate_Halterung_2_002
+    100026: Gate_Halterung_2_003
+    100028: Gate_Halterung_2_004
+    100030: Gate_Schild_2
+    100032: Gate_Schild_2_001
+    100034: Gate_Schild_2_002
+    100036: Gate_Schild_2_003
+    100038: Gate_Schild_2_004
+    100040: //RootNode
+    400000: Gate001_Append
+    400002: Gate002_Append
+    400004: Gate003_Append
+    400006: Gate004_Append
+    400008: Gate005_Append
+    400010: Gate_Halterung_2
+    400012: Gate_Halterung_21
+    400014: Gate_Halterung_21_001
+    400016: Gate_Halterung_21_002
+    400018: Gate_Halterung_21_003
+    400020: Gate_Halterung_21_004
+    400022: Gate_Halterung_2_001
+    400024: Gate_Halterung_2_002
+    400026: Gate_Halterung_2_003
+    400028: Gate_Halterung_2_004
+    400030: Gate_Schild_2
+    400032: Gate_Schild_2_001
+    400034: Gate_Schild_2_002
+    400036: Gate_Schild_2_003
+    400038: Gate_Schild_2_004
+    400040: //RootNode
+    2100000: unnamed
+    2300000: Gate_Halterung_2
+    2300002: Gate_Halterung_21
+    2300004: Gate_Halterung_21_001
+    2300006: Gate_Halterung_21_002
+    2300008: Gate_Halterung_21_003
+    2300010: Gate_Halterung_21_004
+    2300012: Gate_Halterung_2_001
+    2300014: Gate_Halterung_2_002
+    2300016: Gate_Halterung_2_003
+    2300018: Gate_Halterung_2_004
+    2300020: Gate_Schild_2
+    2300022: Gate_Schild_2_001
+    2300024: Gate_Schild_2_002
+    2300026: Gate_Schild_2_003
+    2300028: Gate_Schild_2_004
+    3300000: Gate_Halterung_2
+    3300002: Gate_Halterung_21
+    3300004: Gate_Halterung_21_001
+    3300006: Gate_Halterung_21_002
+    3300008: Gate_Halterung_21_003
+    3300010: Gate_Halterung_21_004
+    3300012: Gate_Halterung_2_001
+    3300014: Gate_Halterung_2_002
+    3300016: Gate_Halterung_2_003
+    3300018: Gate_Halterung_2_004
+    3300020: Gate_Schild_2
+    3300022: Gate_Schild_2_001
+    3300024: Gate_Schild_2_002
+    3300026: Gate_Schild_2_003
+    3300028: Gate_Schild_2_004
+    4300000: Gate_Halterung_2_001
+    4300002: Gate_Halterung_21_001
+    4300004: Gate_Schild_2_001
+    4300006: Gate_Halterung_2_002
+    4300008: Gate_Halterung_21_002
+    4300010: Gate_Schild_2_002
+    4300012: Gate_Halterung_2
+    4300014: Gate_Halterung_21
+    4300016: Gate_Schild_2
+    4300018: Gate_Halterung_2_003
+    4300020: Gate_Halterung_21_003
+    4300022: Gate_Schild_2_003
+    4300024: Gate_Halterung_2_004
+    4300026: Gate_Halterung_21_004
+    4300028: Gate_Schild_2_004
+    7400000: Default Take
+    9500000: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
