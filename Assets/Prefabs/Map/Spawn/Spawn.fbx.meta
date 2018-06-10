@@ -1,54 +1,17 @@
 fileFormatVersion: 2
-guid: 200808c465d970e4082a8c62e63a1f57
-timeCreated: 1520786848
+guid: dacd8425552a62c43ae6017544d2d4a0
+timeCreated: 1526384945
 licenseType: Free
 ModelImporter:
   serializedVersion: 22
   fileIDToRecycleName:
-    100000: Box003
-    100002: Line005
-    100004: Object099
-    100006: Wall 3
-    100008: //RootNode
-    100010: "Gel\xE4nder"
-    100012: "R\xF6hre"
-    100014: "R\xF6hren__Halterung"
-    100016: Wall_3
-    400000: Box003
-    400002: Line005
-    400004: Object099
-    400006: Wall 3
-    400008: //RootNode
-    400010: "Gel\xE4nder"
-    400012: "R\xF6hre"
-    400014: "R\xF6hren__Halterung"
-    400016: Wall_3
-    2100000: 03 - Default
-    2100002: 01 - Default
-    2300000: Box003
-    2300002: Line005
-    2300004: Object099
-    2300006: Wall 3
-    2300008: "Gel\xE4nder"
-    2300010: "R\xF6hre"
-    2300012: "R\xF6hren__Halterung"
-    2300014: Wall_3
-    3300000: Box003
-    3300002: Line005
-    3300004: Object099
-    3300006: Wall 3
-    3300008: "Gel\xE4nder"
-    3300010: "R\xF6hre"
-    3300012: "R\xF6hren__Halterung"
-    3300014: Wall_3
-    4300000: Line005
-    4300002: Object099
-    4300004: Wall 3
-    4300006: Box003
-    4300008: "R\xF6hre"
-    4300010: "R\xF6hren__Halterung"
-    4300012: Wall_3
-    4300014: "Gel\xE4nder"
+    100000: //RootNode
+    400000: //RootNode
+    2100000: 01 - Default
+    2300000: //RootNode
+    3300000: //RootNode
+    4300000: Spawn_plane
+    9500000: //RootNode
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -123,7 +86,7 @@ ModelImporter:
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 0
+  animationType: 2
   humanoidOversampling: 1
   additionalBone: 0
   userData: 
