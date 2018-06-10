@@ -1,7 +1,5 @@
 fileFormatVersion: 2
 guid: c23cf46097018354c8842279d087be10
-timeCreated: 1520786850
-licenseType: Free
 ModelImporter:
   serializedVersion: 22
   fileIDToRecycleName:
@@ -259,6 +257,7 @@ ModelImporter:
     400250: Topring_6
     2100000: 01 - Default
     2100002: 03 - Default
+    2100004: No Name
     2300000: Cylinder020
     2300002: Cylinder021
     2300004: Cylinder022
@@ -596,6 +595,7 @@ ModelImporter:
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
+    importConstraints: 0
     animationCompression: 1
     animationRotationError: 0.5
     animationPositionError: 0.5

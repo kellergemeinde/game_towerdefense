@@ -1,7 +1,5 @@
 fileFormatVersion: 2
 guid: 200808c465d970e4082a8c62e63a1f57
-timeCreated: 1520786848
-licenseType: Free
 ModelImporter:
   serializedVersion: 22
   fileIDToRecycleName:
@@ -112,6 +110,7 @@ ModelImporter:
     4300034: "R\xF6hre"
     4300036: "R\xF6hren_Halterung"
     4300038: Wall_3
+    2186277476908879412: ImportLogs
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -131,6 +130,7 @@ ModelImporter:
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
+    importConstraints: 0
     animationCompression: 1
     animationRotationError: 0.5
     animationPositionError: 0.5

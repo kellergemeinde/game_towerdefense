@@ -1,7 +1,5 @@
 fileFormatVersion: 2
 guid: 589847f588eba274b88b6e75d97765ee
-timeCreated: 1525995869
-licenseType: Free
 ModelImporter:
   serializedVersion: 22
   fileIDToRecycleName:
@@ -18,6 +16,7 @@ ModelImporter:
     3300002: Tower
     4300000: DoubleCannon
     4300002: Tower
+    2186277476908879412: ImportLogs
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -37,6 +36,7 @@ ModelImporter:
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
+    importConstraints: 0
     animationCompression: 1
     animationRotationError: 0.5
     animationPositionError: 0.5
