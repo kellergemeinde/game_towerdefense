@@ -1,220 +1,23 @@
 fileFormatVersion: 2
-guid: caa31f25bc573c94cbeb3a2265c3c8c7
-timeCreated: 1527136525
+guid: 03781e6c4d3a2d647ae209b098d36705
+timeCreated: 1526938933
 licenseType: Free
 ModelImporter:
   serializedVersion: 22
   fileIDToRecycleName:
     100000: //RootNode
-    100002: pCube1
-    100004: pCube10
-    100006: pCube11
-    100008: pCube12
-    100010: pCube13
-    100012: pCube14
-    100014: pCube15
-    100016: pCube16
-    100018: pCube17
-    100020: pCube18
-    100022: pCube19
-    100024: pCube2
-    100026: pCube20
-    100028: pCube21
-    100030: pCube22
-    100032: pCube23
-    100034: pCube24
-    100036: pCube25
-    100038: pCube26
-    100040: pCube27
-    100042: pCube29
-    100044: pCube3
-    100046: pCube32
-    100048: pCube34
-    100050: pCube35
-    100052: pCube4
-    100054: pCube5
-    100056: pCube6
-    100058: pCube7
-    100060: pCube8
-    100062: pCube9
-    100064: polySurface21
-    100066: polySurface22
-    100068: polySurface22 1
-    100070: polySurface23
-    100072: polySurface24
-    100074: polySurface25
-    100076: polySurface26
-    100078: polySurface27
-    100080: polySurface28
-    100082: polySurface29
-    100084: polySurface36
-    100086: polySurface37
-    100088: polySurface38
-    100090: polySurface39
-    100092: polySurface40
-    100094: polySurface41
-    100096: polySurface42
-    100098: polySurface43
-    100100: polySurface44
-    100102: polySurface45
-    100104: transform1
-    100106: transform10
-    100108: transform11
-    100110: transform12
-    100112: transform13
-    100114: transform14
-    100116: transform15
-    100118: transform16
-    100120: transform17
-    100122: transform18
-    100124: transform19
-    100126: transform2
-    100128: transform20
-    100130: transform21
-    100132: transform22
-    100134: transform23
-    100136: transform24
-    100138: transform25
-    100140: transform26
-    100142: transform27
-    100144: transform28
-    100146: transform3
-    100148: transform4
-    100150: transform5
-    100152: transform50
-    100154: transform51
-    100156: transform52
-    100158: transform53
-    100160: transform54
-    100162: transform55
-    100164: transform56
-    100166: transform57
-    100168: transform58
-    100170: transform59
-    100172: transform6
-    100174: transform69
-    100176: transform7
-    100178: transform70
-    100180: transform71
-    100182: transform72
-    100184: transform73
-    100186: transform74
-    100188: transform75
-    100190: transform76
-    100192: transform77
-    100194: transform78
-    100196: transform79
-    100198: transform8
-    100200: transform80
-    100202: transform9
+    100002: Plus
+    100004: Rahmen
     400000: //RootNode
-    400002: pCube1
-    400004: pCube10
-    400006: pCube11
-    400008: pCube12
-    400010: pCube13
-    400012: pCube14
-    400014: pCube15
-    400016: pCube16
-    400018: pCube17
-    400020: pCube18
-    400022: pCube19
-    400024: pCube2
-    400026: pCube20
-    400028: pCube21
-    400030: pCube22
-    400032: pCube23
-    400034: pCube24
-    400036: pCube25
-    400038: pCube26
-    400040: pCube27
-    400042: pCube29
-    400044: pCube3
-    400046: pCube32
-    400048: pCube34
-    400050: pCube35
-    400052: pCube4
-    400054: pCube5
-    400056: pCube6
-    400058: pCube7
-    400060: pCube8
-    400062: pCube9
-    400064: polySurface21
-    400066: polySurface22
-    400068: polySurface22 1
-    400070: polySurface23
-    400072: polySurface24
-    400074: polySurface25
-    400076: polySurface26
-    400078: polySurface27
-    400080: polySurface28
-    400082: polySurface29
-    400084: polySurface36
-    400086: polySurface37
-    400088: polySurface38
-    400090: polySurface39
-    400092: polySurface40
-    400094: polySurface41
-    400096: polySurface42
-    400098: polySurface43
-    400100: polySurface44
-    400102: polySurface45
-    400104: transform1
-    400106: transform10
-    400108: transform11
-    400110: transform12
-    400112: transform13
-    400114: transform14
-    400116: transform15
-    400118: transform16
-    400120: transform17
-    400122: transform18
-    400124: transform19
-    400126: transform2
-    400128: transform20
-    400130: transform21
-    400132: transform22
-    400134: transform23
-    400136: transform24
-    400138: transform25
-    400140: transform26
-    400142: transform27
-    400144: transform28
-    400146: transform3
-    400148: transform4
-    400150: transform5
-    400152: transform50
-    400154: transform51
-    400156: transform52
-    400158: transform53
-    400160: transform54
-    400162: transform55
-    400164: transform56
-    400166: transform57
-    400168: transform58
-    400170: transform59
-    400172: transform6
-    400174: transform69
-    400176: transform7
-    400178: transform70
-    400180: transform71
-    400182: transform72
-    400184: transform73
-    400186: transform74
-    400188: transform75
-    400190: transform76
-    400192: transform77
-    400194: transform78
-    400196: transform79
-    400198: transform8
-    400200: transform80
-    400202: transform9
-    2100000: lambert1
-    2300000: pCube35
-    3300000: pCube35
-    4300000: pCube35
-    7400000: Take 001
-    9500000: //RootNode
+    400002: Plus
+    400004: Rahmen
+    2100000: No Name
+    2300000: Plus
+    2300002: Rahmen
+    3300000: Plus
+    3300002: Rahmen
+    4300000: Rahmen
+    4300002: Plus
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -289,7 +92,7 @@ ModelImporter:
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 2
+  animationType: 0
   humanoidOversampling: 1
   additionalBone: 0
   userData: 

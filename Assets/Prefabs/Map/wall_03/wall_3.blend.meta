@@ -1,10 +1,36 @@
 fileFormatVersion: 2
-guid: b2afa1bd4cc95724881a432892cf4ec9
-timeCreated: 1527136525
+guid: 3b875d966d454764297a4980034db7cd
+timeCreated: 1526938945
 licenseType: Free
 ModelImporter:
   serializedVersion: 22
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    100000: Gel_nder
+    100002: R_hre
+    100004: R_hren__Halterung
+    100006: Wall_3
+    100008: //RootNode
+    400000: Gel_nder
+    400002: R_hre
+    400004: R_hren__Halterung
+    400006: Wall_3
+    400008: //RootNode
+    2100000: 01_-_Default
+    2100002: 03_-_Default
+    2300000: Gel_nder
+    2300002: R_hre
+    2300004: R_hren__Halterung
+    2300006: Wall_3
+    3300000: Gel_nder
+    3300002: R_hre
+    3300004: R_hren__Halterung
+    3300006: Wall_3
+    4300000: Gel_nder
+    4300002: Wall_3
+    4300004: R_hren__Halterung
+    4300006: R_hre
+    7400000: Default Take
+    9500000: //RootNode
   externalObjects: {}
   materials:
     importMaterials: 1

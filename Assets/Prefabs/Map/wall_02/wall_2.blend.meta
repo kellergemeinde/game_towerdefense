@@ -1,10 +1,83 @@
 fileFormatVersion: 2
-guid: a14ddb4f810f10c47bc0803863916d1e
-timeCreated: 1527136525
+guid: eb0e80e2188bcc74881912efcfddae17
+timeCreated: 1526939040
 licenseType: Free
 ModelImporter:
   serializedVersion: 22
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    100000: Arm_Halterung
+    100002: Extension
+    100004: Glasswand
+    100006: Greifarm_01
+    100008: Greifarm_02
+    100010: Greifarm_03
+    100012: Greifarm_04
+    100014: Greifarm_05
+    100016: Greifarm_06
+    100018: Greifarme
+    100020: Halterung
+    100022: Output_Glass
+    100024: Platform
+    100026: Wall_2
+    100028: //RootNode
+    400000: Arm_Halterung
+    400002: Extension
+    400004: Glasswand
+    400006: Greifarm_01
+    400008: Greifarm_02
+    400010: Greifarm_03
+    400012: Greifarm_04
+    400014: Greifarm_05
+    400016: Greifarm_06
+    400018: Greifarme
+    400020: Halterung
+    400022: Output_Glass
+    400024: Platform
+    400026: Wall_2
+    400028: //RootNode
+    2100000: 01_-_Default
+    2100002: 03_-_Default
+    2300000: Arm_Halterung
+    2300002: Extension
+    2300004: Glasswand
+    2300006: Greifarm_01
+    2300008: Greifarm_02
+    2300010: Greifarm_03
+    2300012: Greifarm_04
+    2300014: Greifarm_05
+    2300016: Greifarm_06
+    2300018: Halterung
+    2300020: Output_Glass
+    2300022: Platform
+    2300024: Wall_2
+    3300000: Arm_Halterung
+    3300002: Extension
+    3300004: Glasswand
+    3300006: Greifarm_01
+    3300008: Greifarm_02
+    3300010: Greifarm_03
+    3300012: Greifarm_04
+    3300014: Greifarm_05
+    3300016: Greifarm_06
+    3300018: Halterung
+    3300020: Output_Glass
+    3300022: Platform
+    3300024: Wall_2
+    4300000: Platform
+    4300002: Extension
+    4300004: Output_Glass
+    4300006: Arm_Halterung
+    4300008: Glasswand
+    4300010: Wall_2
+    4300012: Halterung
+    4300014: Greifarm_06
+    4300016: Greifarm_05
+    4300018: Greifarm_04
+    4300020: Greifarm_03
+    4300022: Greifarm_02
+    4300024: Greifarm_01
+    7400000: Default Take
+    9500000: //RootNode
   externalObjects: {}
   materials:
     importMaterials: 1
