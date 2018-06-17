@@ -222,6 +222,11 @@ ModelImporter:
     100428: "W\xFCrfel_3_2_2"
     100430: "W\xFCrfel_4_2"
     100432: "W\xFCrfel_5_2"
+    100434: Boden
+    100436: "Gel\xE4nder"
+    100438: Lamp_2
+    100440: Wall_2
+    100442: Wall_3_2
     400000: Boden_001
     400002: Ebene_001
     400004: Help_Objects
@@ -439,6 +444,11 @@ ModelImporter:
     400428: "W\xFCrfel_3_2_2"
     400430: "W\xFCrfel_4_2"
     400432: "W\xFCrfel_5_2"
+    400434: Boden
+    400436: "Gel\xE4nder"
+    400438: Lamp_2
+    400440: Wall_2
+    400442: Wall_3_2
     2100000: No Name
     2100002: 01 - Default.005
     2100004: 03 - Default.012
@@ -582,6 +592,8 @@ ModelImporter:
     2300272: "W\xFCrfel_3_2_2"
     2300274: "W\xFCrfel_4_2"
     2300276: "W\xFCrfel_5_2"
+    2300278: Boden
+    2300280: Lamp_2
     3300000: Boden_001
     3300002: Ebene_001
     3300004: Output_Glass_004
@@ -721,6 +733,8 @@ ModelImporter:
     3300272: "W\xFCrfel_3_2_2"
     3300274: "W\xFCrfel_4_2"
     3300276: "W\xFCrfel_5_2"
+    3300278: Boden
+    3300280: Lamp_2
     4300000: "W\xFCrfel_3"
     4300002: "W\xFCrfel_2"
     4300004: "W\xFCrfel_1"
@@ -860,6 +874,8 @@ ModelImporter:
     4300272: Ring_2_3
     4300274: Rampe1
     4300276: Rampe2
+    4300278: Lamp_2
+    4300280: Boden
   externalObjects: {}
   materials:
     importMaterials: 1

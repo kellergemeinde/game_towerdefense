@@ -1036,6 +1036,13 @@ ModelImporter:
     102056: Rampe2
     102058: Rampe_1
     102060: Rampe_2
+    102062: Boden
+    102064: "Gel\xE4nder_2_2_2"
+    102066: Lamp_2
+    102068: Mappart_Mid
+    102070: Wall_1_2_2
+    102072: Wall_2
+    102074: Wall_3_2_2_2
     400000: Arm_Halterung_000
     400002: Arm_Halterung_001
     400004: Arm_Halterung_002
@@ -2067,6 +2074,13 @@ ModelImporter:
     402056: Rampe2
     402058: Rampe_1
     402060: Rampe_2
+    402062: Boden
+    402064: "Gel\xE4nder_2_2_2"
+    402066: Lamp_2
+    402068: Mappart_Mid
+    402070: Wall_1_2_2
+    402072: Wall_2
+    402074: Wall_3_2_2_2
     2100000: No Name
     2100002: 01 - Default.005
     2100004: 03 - Default.012
@@ -2829,6 +2843,8 @@ ModelImporter:
     2301510: Rampe2
     2301512: Rampe_1
     2301514: Rampe_2
+    2301516: Boden
+    2301518: Lamp_2
     3300000: Arm_Halterung_000
     3300002: Arm_Halterung_001
     3300004: Arm_Halterung_002
@@ -3587,6 +3603,8 @@ ModelImporter:
     3301510: Rampe2
     3301512: Rampe_1
     3301514: Rampe_2
+    3301516: Boden
+    3301518: Lamp_2
     4300000: "W\xFCrfel_3"
     4300002: "W\xFCrfel_2"
     4300004: "W\xFCrfel_1"
@@ -4345,6 +4363,8 @@ ModelImporter:
     4301510: Rampe_2
     4301512: Rampe1
     4301514: Rampe2
+    4301516: Lamp_2
+    4301518: Boden
   externalObjects: {}
   materials:
     importMaterials: 1
