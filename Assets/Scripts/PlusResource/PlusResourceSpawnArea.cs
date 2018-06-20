@@ -1,45 +1,38 @@
 ﻿using UnityEngine;
+using System.Collections;
 
 namespace Project.Entities
 {
-    public class PlusResourceSpawnArea : NetworkBehaviour
+    public class PlusResourceSpawnArea : Behaviour
     {
+        public GameObject plusResourcePrefab;
         //[SerializeField]
         private int amountOfPlusAtTheBeginning;
 
         //[SerializeField]
         private GameObject plusSpawnArea;
 
-        //[SerializeField]
-        private GameObject plusResourcePrefab;
-
-        private RangeAttribute minMaxX;
-        private RangeAttribute minMaxY;
-        private RangeAttribute minMaxZ;
-
         /// <summary>
         /// Spawn the plus resource at the beginning of the game.
         /// </summary>
         void Start()
         {
-            Vector3 center = plusSpawnArea.transform.position;
-            Vector3 extents = plusSpawnArea.transform.localScale / 2;
-            minMaxY = new RangeAttribute(center.y - extents.y, center.y + extents.y);
-            minMaxZ = new RangeAttribute(center.z - extents.z, center.z + extents.z);
-
-            for (int i = 0; i < amountOfPlusAtTheBeginning; i++)
-            {
-                Instantiate(plusResourcePrefab, new Vector3(
-                    center.x, Random.Range(minMaxY.min, minMaxY.max), Random.Range(minMaxZ.min, minMaxZ.max)), 
-                    Quaternion.identity,
-                    GameObject.Find("Ressource").transform);
-            }
+            plusSpawnArea = this.gameObject;
+            StartCoroutine(spawnResource());
         }
 
         // Update is called once per frame
         void Update()
         {
-
+            
+        }
+        //TODO add resource spawn event
+        IEnumerator spawnResource()
+        {
+            yield return new WaitForSeconds(5);
+            GameObject resource = Instantiate(plusResourcePrefab, new Vector3(plusSpawnArea.transform.position.x, plusSpawnArea.transform.position.y, plusSpawnArea.transform.position.z), Quaternion.identity);
+            resource.transform.SetParent(plusSpawnArea.transform);
+            resource.GetComponent<Rigidbody>().AddForce(plusSpawnArea.transform.up * 4, ForceMode.Impulse);
         }
     }
 }
