@@ -19,6 +19,20 @@ ModelImporter:
     100022: Object190
     100024: Wall 2
     100026: //RootNode
+    100028: Arm_Halterung
+    100030: Extension
+    100032: Glasswand
+    100034: Greifarm_01
+    100036: Greifarm_02
+    100038: Greifarm_03
+    100040: Greifarm_04
+    100042: Greifarm_05
+    100044: Greifarm_06
+    100046: Greifarme
+    100048: Halterung
+    100050: Output_Glass
+    100052: Platform
+    100054: Wall_2
     400000: Cylinder043
     400002: Cylinder044
     400004: Cylinder045
@@ -33,6 +47,20 @@ ModelImporter:
     400022: Object190
     400024: Wall 2
     400026: //RootNode
+    400028: Arm_Halterung
+    400030: Extension
+    400032: Glasswand
+    400034: Greifarm_01
+    400036: Greifarm_02
+    400038: Greifarm_03
+    400040: Greifarm_04
+    400042: Greifarm_05
+    400044: Greifarm_06
+    400046: Greifarme
+    400048: Halterung
+    400050: Output_Glass
+    400052: Platform
+    400054: Wall_2
     2100000: 01 - Default
     2100002: 03 - Default
     2300000: Cylinder043
@@ -48,6 +76,19 @@ ModelImporter:
     2300020: Object189
     2300022: Object190
     2300024: Wall 2
+    2300026: Arm_Halterung
+    2300028: Extension
+    2300030: Glasswand
+    2300032: Greifarm_01
+    2300034: Greifarm_02
+    2300036: Greifarm_03
+    2300038: Greifarm_04
+    2300040: Greifarm_05
+    2300042: Greifarm_06
+    2300044: Halterung
+    2300046: Output_Glass
+    2300048: Platform
+    2300050: Wall_2
     3300000: Cylinder043
     3300002: Cylinder044
     3300004: Cylinder045
@@ -61,6 +102,19 @@ ModelImporter:
     3300020: Object189
     3300022: Object190
     3300024: Wall 2
+    3300026: Arm_Halterung
+    3300028: Extension
+    3300030: Glasswand
+    3300032: Greifarm_01
+    3300034: Greifarm_02
+    3300036: Greifarm_03
+    3300038: Greifarm_04
+    3300040: Greifarm_05
+    3300042: Greifarm_06
+    3300044: Halterung
+    3300046: Output_Glass
+    3300048: Platform
+    3300050: Wall_2
     4300000: Object062
     4300002: Wall 2
     4300004: Object041
@@ -74,6 +128,19 @@ ModelImporter:
     4300020: Object189
     4300022: Object190
     4300024: Cylinder049
+    4300026: Halterung
+    4300028: Wall_2
+    4300030: Glasswand
+    4300032: Arm_Halterung
+    4300034: Greifarm_01
+    4300036: Greifarm_02
+    4300038: Greifarm_03
+    4300040: Greifarm_04
+    4300042: Greifarm_05
+    4300044: Greifarm_06
+    4300046: Output_Glass
+    4300048: Extension
+    4300050: Platform
   externalObjects: {}
   materials:
     importMaterials: 1
