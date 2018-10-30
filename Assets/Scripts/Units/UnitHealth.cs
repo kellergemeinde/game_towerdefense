@@ -7,7 +7,7 @@ namespace Project.Entities
     public class UnitHealth : MonoBehaviour
     {
 
-        public RectTransform Healthbar;
+        //public RectTransform Healthbar;
 
         private UnitEntity EntityWithHealth;
 
@@ -33,7 +33,7 @@ namespace Project.Entities
             if (EntityWithHealth != null)
             {
                 float healthInProcent = EntityWithHealth.health / EntityWithHealth.maxHealth;
-                Healthbar.transform.localScale = new Vector3(healthInProcent, 1, 1);
+                //Healthbar.transform.localScale = new Vector3(healthInProcent, 1, 1);
             }
         }
     }

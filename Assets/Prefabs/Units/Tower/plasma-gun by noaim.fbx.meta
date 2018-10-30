@@ -1,0 +1,190 @@
+fileFormatVersion: 2
+guid: 6884e8ab1eabe6f4bb102da271aad2cc
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Body
+    100002: EndBody
+    100004: Front
+    100006: GlassBody
+    100008: "HeckL\xFCfter"
+    100010: Kabel
+    100012: Kugel
+    100014: Mainbody
+    100016: Moveable
+    100018: //RootNode
+    100020: Ring
+    100022: SideCover
+    100024: SideCover2
+    100026: Weapon_2
+    100028: "W\xFCrfel_1"
+    100030: "W\xFCrfel_1_2"
+    100032: "W\xFCrfel_3"
+    100034: "W\xFCrfel_4"
+    100036: Zylinder_1
+    100038: Zylinder_3
+    100040: Zylinder_4
+    100042: Zylinder_4_2
+    100044: Zylinder_5
+    100046: Zylinder_6
+    400000: Body
+    400002: EndBody
+    400004: Front
+    400006: GlassBody
+    400008: "HeckL\xFCfter"
+    400010: Kabel
+    400012: Kugel
+    400014: Mainbody
+    400016: Moveable
+    400018: //RootNode
+    400020: Ring
+    400022: SideCover
+    400024: SideCover2
+    400026: Weapon_2
+    400028: "W\xFCrfel_1"
+    400030: "W\xFCrfel_1_2"
+    400032: "W\xFCrfel_3"
+    400034: "W\xFCrfel_4"
+    400036: Zylinder_1
+    400038: Zylinder_3
+    400040: Zylinder_4
+    400042: Zylinder_4_2
+    400044: Zylinder_5
+    400046: Zylinder_6
+    2100000: No Name
+    2300000: EndBody
+    2300002: GlassBody
+    2300004: "HeckL\xFCfter"
+    2300006: Kugel
+    2300008: Mainbody
+    2300010: Ring
+    2300012: SideCover
+    2300014: SideCover2
+    2300016: "W\xFCrfel_1"
+    2300018: "W\xFCrfel_1_2"
+    2300020: "W\xFCrfel_3"
+    2300022: "W\xFCrfel_4"
+    2300024: Zylinder_1
+    2300026: Zylinder_3
+    2300028: Zylinder_4
+    2300030: Zylinder_4_2
+    2300032: Zylinder_5
+    2300034: Zylinder_6
+    3300000: EndBody
+    3300002: GlassBody
+    3300004: "HeckL\xFCfter"
+    3300006: Kugel
+    3300008: Mainbody
+    3300010: Ring
+    3300012: SideCover
+    3300014: SideCover2
+    3300016: "W\xFCrfel_1"
+    3300018: "W\xFCrfel_1_2"
+    3300020: "W\xFCrfel_3"
+    3300022: "W\xFCrfel_4"
+    3300024: Zylinder_1
+    3300026: Zylinder_3
+    3300028: Zylinder_4
+    3300030: Zylinder_4_2
+    3300032: Zylinder_5
+    3300034: Zylinder_6
+    4300000: Ring
+    4300002: Kugel
+    4300004: Zylinder_1
+    4300006: Zylinder_3
+    4300008: Zylinder_4
+    4300010: Zylinder_4_2
+    4300012: "HeckL\xFCfter"
+    4300014: SideCover
+    4300016: SideCover2
+    4300018: EndBody
+    4300020: GlassBody
+    4300022: Mainbody
+    4300024: Zylinder_6
+    4300026: Zylinder_5
+    4300028: "W\xFCrfel_4"
+    4300030: "W\xFCrfel_1"
+    4300032: "W\xFCrfel_3"
+    4300034: "W\xFCrfel_1_2"
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

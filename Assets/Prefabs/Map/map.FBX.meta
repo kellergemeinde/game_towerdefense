@@ -1,7 +1,7 @@
 fileFormatVersion: 2
 guid: 69a16329a1d79be49804484dbc4d809e
 ModelImporter:
-  serializedVersion: 22
+  serializedVersion: 23
   fileIDToRecycleName:
     100000: Box001
     100002: Box003
@@ -413,6 +413,72 @@ ModelImporter:
     100814: "R\xF6hren_Halterung"
     100816: "R\xF6hren_Halterung_2"
     100818: Wall_3_2
+    100820: Antimatter_Weapon_2
+    100822: Antimatter_Weapon_2_2
+    100824: Antimatter_Weapon_3
+    100826: Antimatter_Weapon_3_2
+    100828: Body_2
+    100830: Body_2_2
+    100832: EndBody
+    100834: EndBody_2
+    100836: Front
+    100838: Front_2
+    100840: GlassBody
+    100842: GlassBody_2
+    100844: "HeckL\xFCfter"
+    100846: "HeckL\xFCfter_2"
+    100848: Ion_Cannon_2
+    100850: Ion_Cannon_2_2
+    100852: Ion_Cannon_3
+    100854: Ion_Cannon_3_2
+    100856: Kabel
+    100858: Kabel_2
+    100860: Kugel
+    100862: Kugel_2
+    100864: Mainbody
+    100866: Mainbody_2
+    100868: Moveable
+    100870: Moveable_2
+    100872: Ring
+    100874: Ring_2
+    100876: SideCover
+    100878: SideCover2
+    100880: SideCover2_2
+    100882: SideCover_2
+    100884: Wall01
+    100886: Wall02
+    100888: Wall03
+    100890: Wall_3_Cabin
+    100892: Wall_3_Cabin_2
+    100894: Weaopns
+    100896: Weapon
+    100898: Weapon_1
+    100900: Weapon_2
+    100902: Weapon_2_2
+    100904: Weapon_3
+    100906: Weapon_4
+    100908: Weapon_5
+    100910: Weapon_6
+    100912: "W\xFCrfel_1_2_2"
+    100914: "W\xFCrfel_1_2_2_2"
+    100916: "W\xFCrfel_1_2_3"
+    100918: "W\xFCrfel_1_2_3_2"
+    100920: "W\xFCrfel_3_2_2"
+    100922: "W\xFCrfel_3_2_3"
+    100924: "W\xFCrfel_4"
+    100926: "W\xFCrfel_4_2"
+    100928: Zylinder_1_2_2
+    100930: Zylinder_1_2_3
+    100932: Zylinder_3_2
+    100934: Zylinder_3_2_2
+    100936: Zylinder_4_2
+    100938: Zylinder_4_2_2
+    100940: Zylinder_4_2_2_2
+    100942: Zylinder_4_2_3
+    100944: Zylinder_5_2
+    100946: Zylinder_5_2_2
+    100948: Zylinder_6_2
+    100950: Zylinder_6_2_2
     400000: Box001
     400002: Box003
     400004: Box004
@@ -823,6 +889,72 @@ ModelImporter:
     400814: "R\xF6hren_Halterung"
     400816: "R\xF6hren_Halterung_2"
     400818: Wall_3_2
+    400820: Antimatter_Weapon_2
+    400822: Antimatter_Weapon_2_2
+    400824: Antimatter_Weapon_3
+    400826: Antimatter_Weapon_3_2
+    400828: Body_2
+    400830: Body_2_2
+    400832: EndBody
+    400834: EndBody_2
+    400836: Front
+    400838: Front_2
+    400840: GlassBody
+    400842: GlassBody_2
+    400844: "HeckL\xFCfter"
+    400846: "HeckL\xFCfter_2"
+    400848: Ion_Cannon_2
+    400850: Ion_Cannon_2_2
+    400852: Ion_Cannon_3
+    400854: Ion_Cannon_3_2
+    400856: Kabel
+    400858: Kabel_2
+    400860: Kugel
+    400862: Kugel_2
+    400864: Mainbody
+    400866: Mainbody_2
+    400868: Moveable
+    400870: Moveable_2
+    400872: Ring
+    400874: Ring_2
+    400876: SideCover
+    400878: SideCover2
+    400880: SideCover2_2
+    400882: SideCover_2
+    400884: Wall01
+    400886: Wall02
+    400888: Wall03
+    400890: Wall_3_Cabin
+    400892: Wall_3_Cabin_2
+    400894: Weaopns
+    400896: Weapon
+    400898: Weapon_1
+    400900: Weapon_2
+    400902: Weapon_2_2
+    400904: Weapon_3
+    400906: Weapon_4
+    400908: Weapon_5
+    400910: Weapon_6
+    400912: "W\xFCrfel_1_2_2"
+    400914: "W\xFCrfel_1_2_2_2"
+    400916: "W\xFCrfel_1_2_3"
+    400918: "W\xFCrfel_1_2_3_2"
+    400920: "W\xFCrfel_3_2_2"
+    400922: "W\xFCrfel_3_2_3"
+    400924: "W\xFCrfel_4"
+    400926: "W\xFCrfel_4_2"
+    400928: Zylinder_1_2_2
+    400930: Zylinder_1_2_3
+    400932: Zylinder_3_2
+    400934: Zylinder_3_2_2
+    400936: Zylinder_4_2
+    400938: Zylinder_4_2_2
+    400940: Zylinder_4_2_2_2
+    400942: Zylinder_4_2_3
+    400944: Zylinder_5_2
+    400946: Zylinder_5_2_2
+    400948: Zylinder_6_2
+    400950: Zylinder_6_2_2
     2100000: 01 - Default
     2100002: 03 - Default
     2100004: 07 - Default
@@ -1168,6 +1300,56 @@ ModelImporter:
     2300670: "R\xF6hren_Halterung"
     2300672: "R\xF6hren_Halterung_2"
     2300674: Wall_3_2
+    2300676: Antimatter_Weapon_2
+    2300678: Antimatter_Weapon_2_2
+    2300680: Antimatter_Weapon_3
+    2300682: Antimatter_Weapon_3_2
+    2300684: EndBody
+    2300686: EndBody_2
+    2300688: GlassBody
+    2300690: GlassBody_2
+    2300692: "HeckL\xFCfter"
+    2300694: "HeckL\xFCfter_2"
+    2300696: Ion_Cannon_2
+    2300698: Ion_Cannon_2_2
+    2300700: Ion_Cannon_3
+    2300702: Ion_Cannon_3_2
+    2300704: Kugel
+    2300706: Kugel_2
+    2300708: Mainbody
+    2300710: Mainbody_2
+    2300712: Ring
+    2300714: Ring_2
+    2300716: SideCover
+    2300718: SideCover2
+    2300720: SideCover2_2
+    2300722: SideCover_2
+    2300724: Wall_3_Cabin
+    2300726: Wall_3_Cabin_2
+    2300728: Weapon_1
+    2300730: Weapon_3
+    2300732: Weapon_4
+    2300734: Weapon_6
+    2300736: "W\xFCrfel_1_2_2"
+    2300738: "W\xFCrfel_1_2_2_2"
+    2300740: "W\xFCrfel_1_2_3"
+    2300742: "W\xFCrfel_1_2_3_2"
+    2300744: "W\xFCrfel_3_2_2"
+    2300746: "W\xFCrfel_3_2_3"
+    2300748: "W\xFCrfel_4"
+    2300750: "W\xFCrfel_4_2"
+    2300752: Zylinder_1_2_2
+    2300754: Zylinder_1_2_3
+    2300756: Zylinder_3_2
+    2300758: Zylinder_3_2_2
+    2300760: Zylinder_4_2
+    2300762: Zylinder_4_2_2
+    2300764: Zylinder_4_2_2_2
+    2300766: Zylinder_4_2_3
+    2300768: Zylinder_5_2
+    2300770: Zylinder_5_2_2
+    2300772: Zylinder_6_2
+    2300774: Zylinder_6_2_2
     3300000: Box001
     3300002: Box003
     3300004: Box004
@@ -1506,6 +1688,56 @@ ModelImporter:
     3300670: "R\xF6hren_Halterung"
     3300672: "R\xF6hren_Halterung_2"
     3300674: Wall_3_2
+    3300676: Antimatter_Weapon_2
+    3300678: Antimatter_Weapon_2_2
+    3300680: Antimatter_Weapon_3
+    3300682: Antimatter_Weapon_3_2
+    3300684: EndBody
+    3300686: EndBody_2
+    3300688: GlassBody
+    3300690: GlassBody_2
+    3300692: "HeckL\xFCfter"
+    3300694: "HeckL\xFCfter_2"
+    3300696: Ion_Cannon_2
+    3300698: Ion_Cannon_2_2
+    3300700: Ion_Cannon_3
+    3300702: Ion_Cannon_3_2
+    3300704: Kugel
+    3300706: Kugel_2
+    3300708: Mainbody
+    3300710: Mainbody_2
+    3300712: Ring
+    3300714: Ring_2
+    3300716: SideCover
+    3300718: SideCover2
+    3300720: SideCover2_2
+    3300722: SideCover_2
+    3300724: Wall_3_Cabin
+    3300726: Wall_3_Cabin_2
+    3300728: Weapon_1
+    3300730: Weapon_3
+    3300732: Weapon_4
+    3300734: Weapon_6
+    3300736: "W\xFCrfel_1_2_2"
+    3300738: "W\xFCrfel_1_2_2_2"
+    3300740: "W\xFCrfel_1_2_3"
+    3300742: "W\xFCrfel_1_2_3_2"
+    3300744: "W\xFCrfel_3_2_2"
+    3300746: "W\xFCrfel_3_2_3"
+    3300748: "W\xFCrfel_4"
+    3300750: "W\xFCrfel_4_2"
+    3300752: Zylinder_1_2_2
+    3300754: Zylinder_1_2_3
+    3300756: Zylinder_3_2
+    3300758: Zylinder_3_2_2
+    3300760: Zylinder_4_2
+    3300762: Zylinder_4_2_2
+    3300764: Zylinder_4_2_2_2
+    3300766: Zylinder_4_2_3
+    3300768: Zylinder_5_2
+    3300770: Zylinder_5_2_2
+    3300772: Zylinder_6_2
+    3300774: Zylinder_6_2_2
     4300000: Object062
     4300002: Cylinder020
     4300004: Cylinder021
@@ -1844,6 +2076,56 @@ ModelImporter:
     4300670: "R\xF6hre_2"
     4300672: "R\xF6hren_Halterung_2"
     4300674: Wall_3_2
+    4300676: Wall_3_Cabin
+    4300678: Wall_3_Cabin_2
+    4300680: Weapon_1
+    4300682: Antimatter_Weapon_2
+    4300684: Antimatter_Weapon_3
+    4300686: Ring_2
+    4300688: Kugel_2
+    4300690: Zylinder_1_2_2
+    4300692: Zylinder_3_2
+    4300694: Zylinder_4_2_2
+    4300696: Zylinder_4_2_3
+    4300698: "HeckL\xFCfter_2"
+    4300700: SideCover_2
+    4300702: SideCover2_2
+    4300704: EndBody_2
+    4300706: GlassBody_2
+    4300708: Mainbody_2
+    4300710: Zylinder_6_2
+    4300712: Zylinder_5_2
+    4300714: "W\xFCrfel_4_2"
+    4300716: "W\xFCrfel_1_2_2"
+    4300718: "W\xFCrfel_3_2_2"
+    4300720: "W\xFCrfel_1_2_3"
+    4300722: Weapon_3
+    4300724: Ion_Cannon_2
+    4300726: Ion_Cannon_3
+    4300728: Weapon_4
+    4300730: Ion_Cannon_2_2
+    4300732: Ion_Cannon_3_2
+    4300734: Ring
+    4300736: Kugel
+    4300738: Zylinder_1_2_3
+    4300740: Zylinder_3_2_2
+    4300742: Zylinder_4_2
+    4300744: Zylinder_4_2_2_2
+    4300746: "HeckL\xFCfter"
+    4300748: SideCover
+    4300750: SideCover2
+    4300752: EndBody
+    4300754: GlassBody
+    4300756: Mainbody
+    4300758: Zylinder_6_2_2
+    4300760: Zylinder_5_2_2
+    4300762: "W\xFCrfel_4"
+    4300764: "W\xFCrfel_1_2_2_2"
+    4300766: "W\xFCrfel_3_2_3"
+    4300768: "W\xFCrfel_1_2_3_2"
+    4300770: Weapon_6
+    4300772: Antimatter_Weapon_2_2
+    4300774: Antimatter_Weapon_3_2
     2186277476908879412: ImportLogs
   externalObjects: {}
   materials:
@@ -1896,6 +2178,8 @@ ModelImporter:
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
@@ -1915,7 +2199,6 @@ ModelImporter:
     legStretch: 0.05
     feetSpacing: 0
     rootMotionBoneName: 
-    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
     hasExtraRoot: 0
     skeletonHasParents: 1

@@ -1,0 +1,210 @@
+fileFormatVersion: 2
+guid: f26eca6cc0c603443aa871785afe4961
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Antennen
+    100002: Base
+    100004: Body
+    100006: Body_Kapsel
+    100008: Eye
+    100010: Eye_2
+    100012: Eye_inner
+    100014: Gun
+    100016: Gun_1
+    100018: Gun_2
+    100020: Lauf
+    100022: Lauf_2
+    100024: Null
+    100026: Null_1
+    100028: //RootNode
+    100030: Schaft
+    100032: Schaft_2
+    100034: "W\xFCrfel"
+    100036: "W\xFCrfel_1"
+    100038: "W\xFCrfel_1_2"
+    100040: "W\xFCrfel_2"
+    100042: "W\xFCrfel_3"
+    100044: "W\xFCrfel_3_2"
+    100046: Zylinder_1
+    100048: Zylinder_1_2
+    100050: Zylinder_1_3
+    100052: Zylinder_2
+    100054: Zylinder_3
+    100056: Zylinder_4
+    100058: Zylinder_5
+    100060: Zylinder_6
+    400000: Antennen
+    400002: Base
+    400004: Body
+    400006: Body_Kapsel
+    400008: Eye
+    400010: Eye_2
+    400012: Eye_inner
+    400014: Gun
+    400016: Gun_1
+    400018: Gun_2
+    400020: Lauf
+    400022: Lauf_2
+    400024: Null
+    400026: Null_1
+    400028: //RootNode
+    400030: Schaft
+    400032: Schaft_2
+    400034: "W\xFCrfel"
+    400036: "W\xFCrfel_1"
+    400038: "W\xFCrfel_1_2"
+    400040: "W\xFCrfel_2"
+    400042: "W\xFCrfel_3"
+    400044: "W\xFCrfel_3_2"
+    400046: Zylinder_1
+    400048: Zylinder_1_2
+    400050: Zylinder_1_3
+    400052: Zylinder_2
+    400054: Zylinder_3
+    400056: Zylinder_4
+    400058: Zylinder_5
+    400060: Zylinder_6
+    2100000: No Name
+    2300000: Base
+    2300002: Body_Kapsel
+    2300004: Eye_2
+    2300006: Eye_inner
+    2300008: Schaft
+    2300010: Schaft_2
+    2300012: "W\xFCrfel"
+    2300014: "W\xFCrfel_1"
+    2300016: "W\xFCrfel_1_2"
+    2300018: "W\xFCrfel_2"
+    2300020: "W\xFCrfel_3"
+    2300022: "W\xFCrfel_3_2"
+    2300024: Zylinder_1
+    2300026: Zylinder_1_2
+    2300028: Zylinder_1_3
+    2300030: Zylinder_2
+    2300032: Zylinder_3
+    2300034: Zylinder_4
+    2300036: Zylinder_5
+    2300038: Zylinder_6
+    3300000: Base
+    3300002: Body_Kapsel
+    3300004: Eye_2
+    3300006: Eye_inner
+    3300008: Schaft
+    3300010: Schaft_2
+    3300012: "W\xFCrfel"
+    3300014: "W\xFCrfel_1"
+    3300016: "W\xFCrfel_1_2"
+    3300018: "W\xFCrfel_2"
+    3300020: "W\xFCrfel_3"
+    3300022: "W\xFCrfel_3_2"
+    3300024: Zylinder_1
+    3300026: Zylinder_1_2
+    3300028: Zylinder_1_3
+    3300030: Zylinder_2
+    3300032: Zylinder_3
+    3300034: Zylinder_4
+    3300036: Zylinder_5
+    3300038: Zylinder_6
+    4300000: Base
+    4300002: "W\xFCrfel_3_2"
+    4300004: "W\xFCrfel_1_2"
+    4300006: "W\xFCrfel_2"
+    4300008: Schaft_2
+    4300010: Zylinder_1_3
+    4300012: "W\xFCrfel_3"
+    4300014: "W\xFCrfel_1"
+    4300016: "W\xFCrfel"
+    4300018: Schaft
+    4300020: Zylinder_1_2
+    4300022: Zylinder_6
+    4300024: Zylinder_5
+    4300026: Zylinder_1
+    4300028: Zylinder_4
+    4300030: Zylinder_3
+    4300032: Zylinder_2
+    4300034: Eye_2
+    4300036: Eye_inner
+    4300038: Body_Kapsel
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

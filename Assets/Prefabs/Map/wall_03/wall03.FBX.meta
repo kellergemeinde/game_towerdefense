@@ -1,7 +1,7 @@
 fileFormatVersion: 2
 guid: 200808c465d970e4082a8c62e63a1f57
 ModelImporter:
-  serializedVersion: 22
+  serializedVersion: 23
   fileIDToRecycleName:
     100000: Box003
     100002: Line005
@@ -24,6 +24,7 @@ ModelImporter:
     100036: "R\xF6hre"
     100038: "R\xF6hren_Halterung"
     100040: Wall_3
+    100042: Wall_3_Cabin
     400000: Box003
     400002: Line005
     400004: Object099
@@ -45,6 +46,7 @@ ModelImporter:
     400036: "R\xF6hre"
     400038: "R\xF6hren_Halterung"
     400040: Wall_3
+    400042: Wall_3_Cabin
     2100000: 03 - Default
     2100002: 01 - Default
     2100004: 01 - Default.005
@@ -70,6 +72,7 @@ ModelImporter:
     2300034: "R\xF6hre"
     2300036: "R\xF6hren_Halterung"
     2300038: Wall_3
+    2300040: Wall_3_Cabin
     3300000: Box003
     3300002: Line005
     3300004: Object099
@@ -90,6 +93,7 @@ ModelImporter:
     3300034: "R\xF6hre"
     3300036: "R\xF6hren_Halterung"
     3300038: Wall_3
+    3300040: Wall_3_Cabin
     4300000: Line005
     4300002: Object099
     4300004: Wall 3
@@ -110,6 +114,7 @@ ModelImporter:
     4300034: "R\xF6hre"
     4300036: "R\xF6hren_Halterung"
     4300038: Wall_3
+    4300040: Wall_3_Cabin
     2186277476908879412: ImportLogs
   externalObjects: {}
   materials:
@@ -162,6 +167,8 @@ ModelImporter:
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
@@ -181,7 +188,6 @@ ModelImporter:
     legStretch: 0.05
     feetSpacing: 0
     rootMotionBoneName: 
-    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
     hasExtraRoot: 0
     skeletonHasParents: 1
