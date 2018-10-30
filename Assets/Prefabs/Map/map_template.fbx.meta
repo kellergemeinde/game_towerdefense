@@ -1,5 +1,7 @@
 fileFormatVersion: 2
 guid: 5e1bb18642a1c7841b0224c82131f81f
+timeCreated: 1528586986
+licenseType: Free
 ModelImporter:
   serializedVersion: 22
   fileIDToRecycleName:
@@ -1035,7 +1037,12 @@ ModelImporter:
     102058: Rampe_1
     102060: Rampe_2
     102062: Boden
-    102064: Mappart_Mid
+    102064: "Gel\xE4nder_2_2_2"
+    102066: Lamp_2
+    102068: Mappart_Mid
+    102070: Wall_1_2_2
+    102072: Wall_2
+    102074: Wall_3_2_2_2
     400000: Arm_Halterung_000
     400002: Arm_Halterung_001
     400004: Arm_Halterung_002
@@ -2068,7 +2075,12 @@ ModelImporter:
     402058: Rampe_1
     402060: Rampe_2
     402062: Boden
-    402064: Mappart_Mid
+    402064: "Gel\xE4nder_2_2_2"
+    402066: Lamp_2
+    402068: Mappart_Mid
+    402070: Wall_1_2_2
+    402072: Wall_2
+    402074: Wall_3_2_2_2
     2100000: No Name
     2100002: 01 - Default.005
     2100004: 03 - Default.012
@@ -2832,6 +2844,7 @@ ModelImporter:
     2301512: Rampe_1
     2301514: Rampe_2
     2301516: Boden
+    2301518: Lamp_2
     3300000: Arm_Halterung_000
     3300002: Arm_Halterung_001
     3300004: Arm_Halterung_002
@@ -3591,6 +3604,7 @@ ModelImporter:
     3301512: Rampe_1
     3301514: Rampe_2
     3301516: Boden
+    3301518: Lamp_2
     4300000: "W\xFCrfel_3"
     4300002: "W\xFCrfel_2"
     4300004: "W\xFCrfel_1"
@@ -4349,8 +4363,8 @@ ModelImporter:
     4301510: Rampe_2
     4301512: Rampe1
     4301514: Rampe2
-    4301516: Boden
-    2186277476908879412: ImportLogs
+    4301516: Lamp_2
+    4301518: Boden
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -4370,7 +4384,6 @@ ModelImporter:
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
-    importConstraints: 0
     animationCompression: 1
     animationRotationError: 0.5
     animationPositionError: 0.5

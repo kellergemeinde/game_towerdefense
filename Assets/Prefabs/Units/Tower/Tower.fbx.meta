@@ -1,0 +1,402 @@
+fileFormatVersion: 2
+guid: a8cfa772e9b60f040b14578a5907b9e7
+timeCreated: 1529103573
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: group1
+    100002: group2
+    100004: group5
+    100006: group6
+    100008: group7
+    100010: group8
+    100012: pCube1
+    100014: pCube10
+    100016: pCube11
+    100018: pCube12
+    100020: pCube13
+    100022: pCube14
+    100024: pCube15
+    100026: pCube16
+    100028: pCube17
+    100030: pCube18
+    100032: pCube19
+    100034: pCube2
+    100036: pCube3
+    100038: pCube4
+    100040: pCube5
+    100042: pCube6
+    100044: pCube6 1
+    100046: pCube7
+    100048: pCube7 1
+    100050: pCube8
+    100052: pCube8 1
+    100054: pCube9
+    100056: pCube9 1
+    100058: pCylinder1
+    100060: pCylinder2
+    100062: pCylinder3
+    100064: pCylinder4
+    100066: pCylinder5
+    100068: pPipe1
+    100070: pPipe2
+    100072: pPipe3
+    100074: pPipe3 1
+    100076: pPipe4
+    100078: pPipe4 1
+    100080: pPipe5
+    100082: pPipe6
+    100084: pPipe6 1
+    100086: pPipe7
+    100088: pPipe7 1
+    100090: pPipe8
+    100092: pPipe8 1
+    100094: pPipe9
+    100096: pPipe9 1
+    100098: pSphere1
+    100100: pSphere2
+    100102: //RootNode
+    100104: transform1
+    100106: transform10
+    100108: transform11
+    100110: transform12
+    100112: transform13
+    100114: transform14
+    100116: transform15
+    100118: transform16
+    100120: transform17
+    100122: transform18
+    100124: transform19
+    100126: transform2
+    100128: transform20
+    100130: transform21
+    100132: transform22
+    100134: transform23
+    100136: transform24
+    100138: transform25
+    100140: transform26
+    100142: transform27
+    100144: transform28
+    100146: transform29
+    100148: transform3
+    100150: transform30
+    100152: transform31
+    100154: transform32
+    100156: transform33
+    100158: transform34
+    100160: transform35
+    100162: transform36
+    100164: transform37
+    100166: transform38
+    100168: transform39
+    100170: transform4
+    100172: transform40
+    100174: transform41
+    100176: transform42
+    100178: transform43
+    100180: transform44
+    100182: transform5
+    100184: transform6
+    100186: transform7
+    100188: transform8
+    100190: transform9
+    100192: Body
+    100194: EndBody
+    100196: Front
+    100198: GlassBody
+    100200: "HeckL\xFCfter"
+    100202: Kabel
+    100204: Kugel
+    100206: Mainbody
+    100208: SideCover
+    100210: SideCover2
+    100212: Tower_1
+    100214: Weapon
+    100216: Weapon_2
+    100218: "W\xFCrfel_1"
+    100220: "W\xFCrfel_1_2"
+    100222: "W\xFCrfel_3"
+    100224: "W\xFCrfel_4"
+    100226: Zylinder
+    100228: Zylinder_1
+    100230: Zylinder_2
+    100232: Zylinder_2_2
+    100234: Zylinder_3
+    100236: Zylinder_4
+    100238: Zylinder_4_2
+    100240: Zylinder_5
+    100242: Zylinder_6
+    400000: group1
+    400002: group2
+    400004: group5
+    400006: group6
+    400008: group7
+    400010: group8
+    400012: pCube1
+    400014: pCube10
+    400016: pCube11
+    400018: pCube12
+    400020: pCube13
+    400022: pCube14
+    400024: pCube15
+    400026: pCube16
+    400028: pCube17
+    400030: pCube18
+    400032: pCube19
+    400034: pCube2
+    400036: pCube3
+    400038: pCube4
+    400040: pCube5
+    400042: pCube6
+    400044: pCube6 1
+    400046: pCube7
+    400048: pCube7 1
+    400050: pCube8
+    400052: pCube8 1
+    400054: pCube9
+    400056: pCube9 1
+    400058: pCylinder1
+    400060: pCylinder2
+    400062: pCylinder3
+    400064: pCylinder4
+    400066: pCylinder5
+    400068: pPipe1
+    400070: pPipe2
+    400072: pPipe3
+    400074: pPipe3 1
+    400076: pPipe4
+    400078: pPipe4 1
+    400080: pPipe5
+    400082: pPipe6
+    400084: pPipe6 1
+    400086: pPipe7
+    400088: pPipe7 1
+    400090: pPipe8
+    400092: pPipe8 1
+    400094: pPipe9
+    400096: pPipe9 1
+    400098: pSphere1
+    400100: pSphere2
+    400102: //RootNode
+    400104: transform1
+    400106: transform10
+    400108: transform11
+    400110: transform12
+    400112: transform13
+    400114: transform14
+    400116: transform15
+    400118: transform16
+    400120: transform17
+    400122: transform18
+    400124: transform19
+    400126: transform2
+    400128: transform20
+    400130: transform21
+    400132: transform22
+    400134: transform23
+    400136: transform24
+    400138: transform25
+    400140: transform26
+    400142: transform27
+    400144: transform28
+    400146: transform29
+    400148: transform3
+    400150: transform30
+    400152: transform31
+    400154: transform32
+    400156: transform33
+    400158: transform34
+    400160: transform35
+    400162: transform36
+    400164: transform37
+    400166: transform38
+    400168: transform39
+    400170: transform4
+    400172: transform40
+    400174: transform41
+    400176: transform42
+    400178: transform43
+    400180: transform44
+    400182: transform5
+    400184: transform6
+    400186: transform7
+    400188: transform8
+    400190: transform9
+    400192: Body
+    400194: EndBody
+    400196: Front
+    400198: GlassBody
+    400200: "HeckL\xFCfter"
+    400202: Kabel
+    400204: Kugel
+    400206: Mainbody
+    400208: SideCover
+    400210: SideCover2
+    400212: Tower_1
+    400214: Weapon
+    400216: Weapon_2
+    400218: "W\xFCrfel_1"
+    400220: "W\xFCrfel_1_2"
+    400222: "W\xFCrfel_3"
+    400224: "W\xFCrfel_4"
+    400226: Zylinder
+    400228: Zylinder_1
+    400230: Zylinder_2
+    400232: Zylinder_2_2
+    400234: Zylinder_3
+    400236: Zylinder_4
+    400238: Zylinder_4_2
+    400240: Zylinder_5
+    400242: Zylinder_6
+    2100000: lambert1
+    2100002: No Name
+    2100004: Mat.1
+    2100006: Mat
+    2300000: pCube19
+    2300002: EndBody
+    2300004: GlassBody
+    2300006: "HeckL\xFCfter"
+    2300008: Kugel
+    2300010: Mainbody
+    2300012: SideCover
+    2300014: SideCover2
+    2300016: Tower_1
+    2300018: "W\xFCrfel_1"
+    2300020: "W\xFCrfel_1_2"
+    2300022: "W\xFCrfel_3"
+    2300024: "W\xFCrfel_4"
+    2300026: Zylinder
+    2300028: Zylinder_1
+    2300030: Zylinder_2
+    2300032: Zylinder_2_2
+    2300034: Zylinder_3
+    2300036: Zylinder_4
+    2300038: Zylinder_4_2
+    2300040: Zylinder_5
+    2300042: Zylinder_6
+    3300000: pCube19
+    3300002: EndBody
+    3300004: GlassBody
+    3300006: "HeckL\xFCfter"
+    3300008: Kugel
+    3300010: Mainbody
+    3300012: SideCover
+    3300014: SideCover2
+    3300016: Tower_1
+    3300018: "W\xFCrfel_1"
+    3300020: "W\xFCrfel_1_2"
+    3300022: "W\xFCrfel_3"
+    3300024: "W\xFCrfel_4"
+    3300026: Zylinder
+    3300028: Zylinder_1
+    3300030: Zylinder_2
+    3300032: Zylinder_2_2
+    3300034: Zylinder_3
+    3300036: Zylinder_4
+    3300038: Zylinder_4_2
+    3300040: Zylinder_5
+    3300042: Zylinder_6
+    4300000: pCube19
+    4300002: Zylinder_2
+    4300004: Zylinder
+    4300006: Zylinder_2_2
+    4300008: Kugel
+    4300010: Zylinder_1
+    4300012: Zylinder_3
+    4300014: Zylinder_4
+    4300016: Zylinder_4_2
+    4300018: "HeckL\xFCfter"
+    4300020: SideCover
+    4300022: SideCover2
+    4300024: EndBody
+    4300026: GlassBody
+    4300028: Mainbody
+    4300030: Zylinder_6
+    4300032: Zylinder_5
+    4300034: "W\xFCrfel_4"
+    4300036: "W\xFCrfel_1"
+    4300038: "W\xFCrfel_3"
+    4300040: "W\xFCrfel_1_2"
+    4300042: Tower_1
+    9500000: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
