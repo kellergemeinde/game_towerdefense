@@ -65,7 +65,7 @@ namespace SpriteGlow
             RemoveSlotsNameNotMatching(new[] { OutputSlotRGBAId, OutputSlotRId, OutputSlotGId, OutputSlotBId, OutputSlotAId, TextureInputId, UVInput, SamplerInput, GlowColorInput, GlowBrightnessInput, OutlineWidthInput, AlphaThresholdInput });
         }
 
-        public virtual void GenerateNodeCode (ShaderGenerator visitor, GenerationMode generationMode)
+        public virtual void GenerateNodeCode (ShaderGenerator visitor, GraphContext graphContext, GenerationMode generationMode)
         {
             var samplerSlot = FindInputSlot<MaterialSlot>(SamplerInput);
             var edgesSampler = owner.GetEdges(samplerSlot.slotReference);
@@ -130,8 +130,7 @@ namespace SpriteGlow
     {8}4 {7} = lerp(color, {3} * {4} * {3}.a, shouldDrawOutline);", 
     textureName, samplerName, textureUVName, glowColorName, glowBrightnessName, outlineWidthName, alphaThresholdName, outputColorName, precision);
         }
-
-        public bool RequiresMeshUV (UVChannel channel)
+        public bool RequiresMeshUV (UVChannel channel, ShaderStageCapability capability)
         {
             s_TempSlots.Clear();
             GetInputSlots(s_TempSlots);
