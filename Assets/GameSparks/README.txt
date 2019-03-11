@@ -1,1 +1,0 @@
-﻿GameSparks is our backend, it provides match making, ranking, chatting and most importently loot boxes ♥

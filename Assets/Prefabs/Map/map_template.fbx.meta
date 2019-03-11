@@ -1169,6 +1169,24 @@ ModelImporter:
     102326: Zylinder_6_2_2
     102328: Zylinder_6_2_2_2
     102330: Zylinder_6_2_2_3
+    102332: Buildings
+    102334: Buildings_2
+    102336: Elevator_2
+    102338: Lane_Plane001_2
+    102340: Lane_Plane002_2
+    102342: Lane_Plane003_2
+    102344: Lane_Plane004_2
+    102346: Lane_Plane005_2
+    102348: Lanes_2
+    102350: Player_1
+    102352: Player_2
+    102354: Player_Prefaps_2
+    102356: Resource_Display
+    102358: Resource_Display_2
+    102360: Shild
+    102362: Shild_2
+    102364: Signs
+    102366: Signs_2
     400000: Arm_Halterung_000
     400002: Arm_Halterung_001
     400004: Arm_Halterung_002
@@ -2335,6 +2353,24 @@ ModelImporter:
     402326: Zylinder_6_2_2
     402328: Zylinder_6_2_2_2
     402330: Zylinder_6_2_2_3
+    402332: Buildings
+    402334: Buildings_2
+    402336: Elevator_2
+    402338: Lane_Plane001_2
+    402340: Lane_Plane002_2
+    402342: Lane_Plane003_2
+    402344: Lane_Plane004_2
+    402346: Lane_Plane005_2
+    402348: Lanes_2
+    402350: Player_1
+    402352: Player_2
+    402354: Player_Prefaps_2
+    402356: Resource_Display
+    402358: Resource_Display_2
+    402360: Shild
+    402362: Shild_2
+    402364: Signs
+    402366: Signs_2
     2100000: No Name
     2100002: 01 - Default.005
     2100004: 03 - Default.012
@@ -3196,6 +3232,11 @@ ModelImporter:
     2301708: Zylinder_6_2_2
     2301710: Zylinder_6_2_2_2
     2301712: Zylinder_6_2_2_3
+    2301714: Lane_Plane001_2
+    2301716: Lane_Plane002_2
+    2301718: Lane_Plane003_2
+    2301720: Lane_Plane004_2
+    2301722: Lane_Plane005_2
     3300000: Arm_Halterung_000
     3300002: Arm_Halterung_001
     3300004: Arm_Halterung_002
@@ -4053,6 +4094,11 @@ ModelImporter:
     3301708: Zylinder_6_2_2
     3301710: Zylinder_6_2_2_2
     3301712: Zylinder_6_2_2_3
+    3301714: Lane_Plane001_2
+    3301716: Lane_Plane002_2
+    3301718: Lane_Plane003_2
+    3301720: Lane_Plane004_2
+    3301722: Lane_Plane005_2
     4300000: "W\xFCrfel_3"
     4300002: "W\xFCrfel_2"
     4300004: "W\xFCrfel_1"
@@ -4910,6 +4956,11 @@ ModelImporter:
     4301708: Ring_2_2_2
     4301710: Kugel_3_2_2
     4301712: Ring_2_3_2
+    4301714: Lane_Plane001_2
+    4301716: Lane_Plane002_2
+    4301718: Lane_Plane003_2
+    4301720: Lane_Plane004_2
+    4301722: Lane_Plane005_2
     2186277476908879412: ImportLogs
   externalObjects: {}
   materials:
@@ -4945,6 +4996,7 @@ ModelImporter:
     globalScale: 1
     meshCompression: 0
     addColliders: 0
+    useSRGBMaterialColor: 1
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
@@ -4969,6 +5021,9 @@ ModelImporter:
     normalImportMode: 0
     tangentImportMode: 3
     normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
   importAnimation: 1
   copyAvatar: 0
   humanDescription:

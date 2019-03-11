@@ -479,6 +479,16 @@ ModelImporter:
     100946: Zylinder_5_2_2
     100948: Zylinder_6_2
     100950: Zylinder_6_2_2
+    100952: Buildings
+    100954: Lane_Plane001
+    100956: Lane_Plane002
+    100958: Lane_Plane003
+    100960: Lane_Plane004
+    100962: Lane_Plane005
+    100964: Lanes
+    100966: Resource_Display
+    100968: Shild
+    100970: Signs
     400000: Box001
     400002: Box003
     400004: Box004
@@ -955,6 +965,16 @@ ModelImporter:
     400946: Zylinder_5_2_2
     400948: Zylinder_6_2
     400950: Zylinder_6_2_2
+    400952: Buildings
+    400954: Lane_Plane001
+    400956: Lane_Plane002
+    400958: Lane_Plane003
+    400960: Lane_Plane004
+    400962: Lane_Plane005
+    400964: Lanes
+    400966: Resource_Display
+    400968: Shild
+    400970: Signs
     2100000: 01 - Default
     2100002: 03 - Default
     2100004: 07 - Default
@@ -1350,6 +1370,11 @@ ModelImporter:
     2300770: Zylinder_5_2_2
     2300772: Zylinder_6_2
     2300774: Zylinder_6_2_2
+    2300776: Lane_Plane001
+    2300778: Lane_Plane002
+    2300780: Lane_Plane003
+    2300782: Lane_Plane004
+    2300784: Lane_Plane005
     3300000: Box001
     3300002: Box003
     3300004: Box004
@@ -1738,6 +1763,11 @@ ModelImporter:
     3300770: Zylinder_5_2_2
     3300772: Zylinder_6_2
     3300774: Zylinder_6_2_2
+    3300776: Lane_Plane001
+    3300778: Lane_Plane002
+    3300780: Lane_Plane003
+    3300782: Lane_Plane004
+    3300784: Lane_Plane005
     4300000: Object062
     4300002: Cylinder020
     4300004: Cylinder021
@@ -2126,6 +2156,11 @@ ModelImporter:
     4300770: Weapon_6
     4300772: Antimatter_Weapon_2_2
     4300774: Antimatter_Weapon_3_2
+    4300776: Lane_Plane001
+    4300778: Lane_Plane002
+    4300780: Lane_Plane003
+    4300782: Lane_Plane004
+    4300784: Lane_Plane005
     2186277476908879412: ImportLogs
   externalObjects: {}
   materials:
@@ -2161,6 +2196,7 @@ ModelImporter:
     globalScale: 1
     meshCompression: 0
     addColliders: 0
+    useSRGBMaterialColor: 1
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
@@ -2185,6 +2221,9 @@ ModelImporter:
     normalImportMode: 0
     tangentImportMode: 3
     normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
   importAnimation: 1
   copyAvatar: 0
   humanDescription:
