@@ -41,13 +41,13 @@ namespace Project
             SpawnManager.SpawnUnit += SpawnUnit;
 
             if (SpawnLocation == null)
-                SpawnLocation = GameObject.Find("Level/Player" + ID + "/Location/Spawn").transform;
+                SpawnLocation = GameObject.Find("Level/Playable_Area/Player_" + ID + "/Location/Spawn").transform;
 
             PlayerUnitsEmpty = new GameObject() { name = "Player" + ID };
             PlayerUnitsEmpty.transform.parent = GameObject.Find("Units").transform;
 
             LaneShields = new List<Transform>();
-            foreach (Transform shield in GameObject.Find("Level/Player" + ID + "/Shields").transform)
+            foreach (Transform shield in GameObject.Find("Level/Playable_Area/Player_" + ID + "/Shields").transform)
             {
                 LaneShields.Add(shield.transform);
             }
