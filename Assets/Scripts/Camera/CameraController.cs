@@ -9,7 +9,6 @@ namespace Project.Camera
         public bool enableCameraMouseMovement = true;
         float panSpeed = 100f;
         float panBorderThickness = 10f;
-        float zoomSpeed = 2000;
         public float smoothTime = 0.3F;
         float minZoom = 10;
         float maxZoom = 1000;
