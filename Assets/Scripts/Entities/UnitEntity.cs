@@ -4,7 +4,7 @@ using UnityEngine.Networking;
 
 namespace Project.Entities {
 
-    public abstract class UnitEntity : Project.NetworkBehaviour, IInteractable, IFightable, IHarmable {
+    public class UnitEntity : Project.NetworkBehaviour, IInteractable, IFightable, IHarmable {
 
         public enum Behaviour {
 

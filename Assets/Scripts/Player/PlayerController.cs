@@ -86,8 +86,10 @@ namespace Project
         //[Command]
         private void CmdSpawnWorker(int ID, float[] Destination)
         {
-            GameObject worker = (GameObject) Instantiate(workerPrefab, SpawnLocation.position, transform.rotation);
-            worker.transform.parent = GameObject.Find("Units/Player" + ID).transform;
+            GameObject go = (GameObject) Instantiate(workerPrefab, SpawnLocation.position, transform.rotation);
+            go.transform.parent = GameObject.Find("Units/Player" + ID).transform;
+            go.SendMessage("SetPlayer", ID);
+            go.SendMessage("SetDestination", Destination);
             // var go = Instantiate(workerPrefab, SpawnLocation.position, Quaternion.identity);
             // go.SendMessage("SetPlayer", ID);
             // go.SendMessage("SetDestination", Destination);
@@ -98,8 +100,10 @@ namespace Project
         //[Command]
         private void CmdSpawnArcher(int ID, float[] Destination)
         {
-            GameObject worker = (GameObject) Instantiate(archerPrefab, SpawnLocation.position, transform.rotation);
-            worker.transform.parent = GameObject.Find("Units/Player" + ID).transform;
+            GameObject go = (GameObject) Instantiate(archerPrefab, SpawnLocation.position, transform.rotation);
+            go.transform.parent = GameObject.Find("Units/Player" + ID).transform;
+            go.SendMessage("SetPlayer", ID);
+            go.SendMessage("SetDestination", Destination);
             // var go = Instantiate(archerPrefab, SpawnLocation.position, Quaternion.identity);
             // go.SendMessage("SetPlayer", ID);
             // go.SendMessage("SetDestination", Destination);
@@ -110,8 +114,10 @@ namespace Project
         //[Command]
         private void CmdSpawnSoldier(int ID, float[] Destination)
         {
-            GameObject worker = (GameObject) Instantiate(soldierPrefab, SpawnLocation.position, transform.rotation);
-            worker.transform.parent = GameObject.Find("Units/Player" + ID).transform;
+            GameObject go = (GameObject) Instantiate(soldierPrefab, SpawnLocation.position, transform.rotation);
+            go.transform.parent = GameObject.Find("Units/Player" + ID).transform;
+            go.SendMessage("SetPlayer", ID);
+            go.SendMessage("SetDestination", Destination);
             // var go = Instantiate(soldierPrefab, SpawnLocation.position, Quaternion.identity);
             // go.SendMessage("SetPlayer", ID);
             // go.SendMessage("SetDestination", Destination);
