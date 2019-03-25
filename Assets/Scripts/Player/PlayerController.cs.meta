@@ -1,11 +1,16 @@
 fileFormatVersion: 2
 guid: a22c49fb7646a99469b484602eee4840
-timeCreated: 1517436270
-licenseType: Free
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - SpawnLocation: {instanceID: 0}
+  - workerPrefab: {fileID: 1680170098559744, guid: 6fffac7be437acf45b857f6b9403f1fe,
+      type: 3}
+  - soldierPrefab: {fileID: 1273025444795226, guid: cea47a2b6b7f0b94a83f22ff42ee1de8,
+      type: 3}
+  - archerPrefab: {fileID: 1838771813028268, guid: e5f3fa3b13fcc4f4fb76ee030ae9db81,
+      type: 3}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

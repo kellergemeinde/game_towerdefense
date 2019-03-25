@@ -7,12 +7,12 @@ namespace Project.Camera
     {
         public Vector2 target;
         public bool enableCameraMouseMovement = true;
-        float panSpeed = 10f;
+        float panSpeed = 100f;
         float panBorderThickness = 10f;
-        float zoomSpeed = 2000;
+        public float smoothTime = 0.3F;
         float minZoom = 10;
         float maxZoom = 1000;
-
+    private Vector3 velocity = Vector3.zero;
 
         void Update()
         {
@@ -47,10 +47,10 @@ namespace Project.Camera
 
             //Zoom
             float scroll = UnityEngine.Input.GetAxis("Mouse ScrollWheel");
-            currentPosition.y -= scroll * zoomSpeed * Time.deltaTime;
+            currentPosition.y -= scroll * panSpeed;
             currentPosition.y = Mathf.Clamp(currentPosition.y, minZoom, maxZoom);
 
-            transform.position = currentPosition;
+            transform.position = Vector3.SmoothDamp(transform.position, currentPosition, ref velocity, smoothTime);
         }
 
     }

@@ -41,13 +41,13 @@ namespace Project
             SpawnManager.SpawnUnit += SpawnUnit;
 
             if (SpawnLocation == null)
-                SpawnLocation = GameObject.Find("Level/Player" + ID + "/Location/Spawn").transform;
+                SpawnLocation = GameObject.Find("Level/Playable_Area/Player" + ID + "/Location/Spawn").transform;
 
             PlayerUnitsEmpty = new GameObject() { name = "Player" + ID };
-            PlayerUnitsEmpty.transform.parent = GameObject.Find("Units").transform;
+            PlayerUnitsEmpty.transform.SetParent(GameObject.Find("Units").transform);
 
             LaneShields = new List<Transform>();
-            foreach (Transform shield in GameObject.Find("Level/Player" + ID + "/Shields").transform)
+            foreach (Transform shield in GameObject.Find("Level/Playable_Area/Player" + ID + "/Shields").transform)
             {
                 LaneShields.Add(shield.transform);
             }
@@ -86,31 +86,43 @@ namespace Project
         //[Command]
         private void CmdSpawnWorker(int ID, float[] Destination)
         {
-            var go = Instantiate(workerPrefab, SpawnLocation.position, Quaternion.identity);
+            GameObject go = (GameObject) Instantiate(workerPrefab, SpawnLocation.position, transform.rotation);
+            go.transform.parent = GameObject.Find("Units/Player" + ID).transform;
             go.SendMessage("SetPlayer", ID);
             go.SendMessage("SetDestination", Destination);
-            NetworkServer.Spawn(go);
-            RpcSyncParentOnce(go, ID);
+            // var go = Instantiate(workerPrefab, SpawnLocation.position, Quaternion.identity);
+            // go.SendMessage("SetPlayer", ID);
+            // go.SendMessage("SetDestination", Destination);
+            // NetworkServer.Spawn(go);
+            // RpcSyncParentOnce(go, ID);
         }
 
         //[Command]
         private void CmdSpawnArcher(int ID, float[] Destination)
         {
-            var go = Instantiate(archerPrefab, SpawnLocation.position, Quaternion.identity);
+            GameObject go = (GameObject) Instantiate(archerPrefab, SpawnLocation.position, transform.rotation);
+            go.transform.parent = GameObject.Find("Units/Player" + ID).transform;
             go.SendMessage("SetPlayer", ID);
             go.SendMessage("SetDestination", Destination);
-            NetworkServer.Spawn(go);
-            RpcSyncParentOnce(go, ID);
+            // var go = Instantiate(archerPrefab, SpawnLocation.position, Quaternion.identity);
+            // go.SendMessage("SetPlayer", ID);
+            // go.SendMessage("SetDestination", Destination);
+            // NetworkServer.Spawn(go);
+            // RpcSyncParentOnce(go, ID);
         }
 
         //[Command]
         private void CmdSpawnSoldier(int ID, float[] Destination)
         {
-            var go = Instantiate(soldierPrefab, SpawnLocation.position, Quaternion.identity);
+            GameObject go = (GameObject) Instantiate(soldierPrefab, SpawnLocation.position, transform.rotation);
+            go.transform.parent = GameObject.Find("Units/Player" + ID).transform;
             go.SendMessage("SetPlayer", ID);
             go.SendMessage("SetDestination", Destination);
-            NetworkServer.Spawn(go);
-            RpcSyncParentOnce(go, ID);
+            // var go = Instantiate(soldierPrefab, SpawnLocation.position, Quaternion.identity);
+            // go.SendMessage("SetPlayer", ID);
+            // go.SendMessage("SetDestination", Destination);
+            // NetworkServer.Spawn(go);
+            // RpcSyncParentOnce(go, ID);
         }
 
         //[ClientRpc]
