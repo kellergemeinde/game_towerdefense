@@ -22,10 +22,10 @@ namespace Project
         public GameObject soldierPrefab;
         public GameObject archerPrefab;
 
+        public List<ElevatorController> Elevators;
         private GameObject PlayerUnitsEmpty;
 
         private static SpawnManager SpawnManager;
-
         private List<Transform> LaneShields;
 
         // Use this for initialization
@@ -39,15 +39,24 @@ namespace Project
             if (SpawnManager == null)
                 SpawnManager = GameObject.Find("SpawnManager").GetComponent<SpawnManager>();
             SpawnManager.SpawnUnit += SpawnUnit;
+        
 
-            if (SpawnLocation == null)
-                SpawnLocation = GameObject.Find("Level/Playable_Area/Player" + ID + "/Location/Spawn").transform;
+            if(Elevators.Count == 0){
+                // fill list
+                for (int i = 1; i < 4; i++)
+                {
+                    Elevators.Add(GameObject.Find("Level/map_template/Player" + ID + "/Elevator/Elevator_0"+ i).GetComponent<GameObject>().GetComponent<ElevatorController>());
+                }
+            }
+
+            // if (SpawnLocation == null)
+            //     SpawnLocation = GameObject.Find("Level/Playable_Area/Player" + ID + "/Location/Spawn").transform;
 
             PlayerUnitsEmpty = new GameObject() { name = "Player" + ID };
             PlayerUnitsEmpty.transform.SetParent(GameObject.Find("Units").transform);
 
             LaneShields = new List<Transform>();
-            foreach (Transform shield in GameObject.Find("Level/Playable_Area/Player" + ID + "/Shields").transform)
+            foreach (Transform shield in GameObject.Find("Level/map_template/Player" + ID + "/Shields").transform)
             {
                 LaneShields.Add(shield.transform);
             }
@@ -66,6 +75,33 @@ namespace Project
                 //return;
 
             Destination = new float[] { LaneShields[e.LaneToSpawn - 1].position.x + 0.5f, LaneShields[e.LaneToSpawn - 1].position.y, LaneShields[e.LaneToSpawn - 1].position.z };
+            Transform SpawnLoc = null;
+            if (e.LaneToSpawn == 1){
+                
+                    SpawnLoc = getSpawnLocFromElevator(1);
+  
+            }
+            switch (e.LaneToSpawn)
+            {
+                case 1:
+                    SpawnLoc = getSpawnLocFromElevator(1);
+                    break;
+                case 2:
+                    SpawnLoc = getSpawnLocFromElevator(2);
+                    break;
+                case 3:
+                    SpawnLoc = getSpawnLocFromElevator(2);
+                    break;
+                case 4:
+                    SpawnLoc = getSpawnLocFromElevator(2);
+                    break;
+                case 5:
+                    SpawnLoc = getSpawnLocFromElevator(3);
+                    break;
+                default:
+                    throw new NotImplementedException();
+            }
+
 
             switch (e.UnitToSpawn)
             {
@@ -83,6 +119,11 @@ namespace Project
             }
         }
 
+        private Transform getSpawnLocFromElevator(int Elevator){
+            //Elevators[Elevator].idle;
+            // is elev full go into holder stack
+            return null;
+        }
         //[Command]
         private void CmdSpawnWorker(int ID, float[] Destination)
         {

@@ -489,6 +489,9 @@ ModelImporter:
     100966: Resource_Display
     100968: Shild
     100970: Signs
+    100972: Camera
+    100974: Hemi
+    100976: Mappart_1
     400000: Box001
     400002: Box003
     400004: Box004
@@ -975,6 +978,10 @@ ModelImporter:
     400966: Resource_Display
     400968: Shild
     400970: Signs
+    400972: Camera
+    400974: Hemi
+    400976: Mappart_1
+    2000000: Camera
     2100000: 01 - Default
     2100002: 03 - Default
     2100004: 07 - Default
@@ -982,6 +989,24 @@ ModelImporter:
     2100008: No Name
     2100010: 01 - Default.005
     2100012: 03 - Default.001
+    2100014: 03 - Default.000
+    2100016: Material.001
+    2100018: Material.002
+    2100020: Material.012
+    2100022: Material.013
+    2100024: Material.011
+    2100026: Material
+    2100028: Material.010
+    2100030: Material.008
+    2100032: Material.005
+    2100034: Material.003
+    2100036: Material.007
+    2100038: Material.015
+    2100040: Material.016
+    2100042: Material.009
+    2100044: Material.004
+    2100046: Material.014
+    2100048: Material.006
     2300000: Box001
     2300002: Box003
     2300004: Box004
@@ -2161,6 +2186,7 @@ ModelImporter:
     4300780: Lane_Plane003
     4300782: Lane_Plane004
     4300784: Lane_Plane005
+    10800000: Hemi
     2186277476908879412: ImportLogs
   externalObjects: {}
   materials:

@@ -1187,6 +1187,25 @@ ModelImporter:
     102362: Shild_2
     102364: Signs
     102366: Signs_2
+    102368: Elevator_01
+    102370: Elevator_02
+    102372: Elevator_03
+    102374: Gate001
+    102376: Gate001_2
+    102378: Gate002
+    102380: Gate002_2
+    102382: Gate003
+    102384: Gate003_2
+    102386: Gate004
+    102388: Gate004_2
+    102390: Gate005
+    102392: Gate005_2
+    102394: Shields
+    102396: Shields_2
+    102398: Elevator_01_2
+    102400: Elevator_02_2
+    102402: Elevator_03_2
+    102404: Elevator_Stangen_2
     400000: Arm_Halterung_000
     400002: Arm_Halterung_001
     400004: Arm_Halterung_002
@@ -2371,10 +2390,32 @@ ModelImporter:
     402362: Shild_2
     402364: Signs
     402366: Signs_2
+    402368: Elevator_01
+    402370: Elevator_02
+    402372: Elevator_03
+    402374: Gate001
+    402376: Gate001_2
+    402378: Gate002
+    402380: Gate002_2
+    402382: Gate003
+    402384: Gate003_2
+    402386: Gate004
+    402388: Gate004_2
+    402390: Gate005
+    402392: Gate005_2
+    402394: Shields
+    402396: Shields_2
+    402398: Elevator_01_2
+    402400: Elevator_02_2
+    402402: Elevator_03_2
+    402404: Elevator_Stangen_2
     2100000: No Name
     2100002: 01 - Default.005
     2100004: 03 - Default.012
     2100006: 03 - Default.001
+    2100008: Mat
+    2100010: Glas
+    2100012: Metal
     2300000: Arm_Halterung_000
     2300002: Arm_Halterung_001
     2300004: Arm_Halterung_002
@@ -3237,6 +3278,13 @@ ModelImporter:
     2301718: Lane_Plane003_2
     2301720: Lane_Plane004_2
     2301722: Lane_Plane005_2
+    2301724: Elevator_01
+    2301726: Elevator_02
+    2301728: Elevator_03
+    2301730: Elevator_01_2
+    2301732: Elevator_02_2
+    2301734: Elevator_03_2
+    2301736: Elevator_Stangen_2
     3300000: Arm_Halterung_000
     3300002: Arm_Halterung_001
     3300004: Arm_Halterung_002
@@ -4099,6 +4147,13 @@ ModelImporter:
     3301718: Lane_Plane003_2
     3301720: Lane_Plane004_2
     3301722: Lane_Plane005_2
+    3301724: Elevator_01
+    3301726: Elevator_02
+    3301728: Elevator_03
+    3301730: Elevator_01_2
+    3301732: Elevator_02_2
+    3301734: Elevator_03_2
+    3301736: Elevator_Stangen_2
     4300000: "W\xFCrfel_3"
     4300002: "W\xFCrfel_2"
     4300004: "W\xFCrfel_1"
@@ -4961,6 +5016,13 @@ ModelImporter:
     4301718: Lane_Plane003_2
     4301720: Lane_Plane004_2
     4301722: Lane_Plane005_2
+    4301724: Elevator_01
+    4301726: Elevator_02
+    4301728: Elevator_03
+    4301730: Elevator_01_2
+    4301732: Elevator_02_2
+    4301734: Elevator_03_2
+    4301736: Elevator_Stangen_2
     2186277476908879412: ImportLogs
   externalObjects: {}
   materials:

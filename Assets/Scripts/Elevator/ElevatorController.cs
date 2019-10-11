@@ -11,6 +11,7 @@ public class ElevatorController : MonoBehaviour
     public float elevatorSpeed = 2;
     public float doorsize = 2.6f; // TODO get Z heigh from gameobject
     public GameObject ElevatorDoor;
+    public List<GameObject> spawn;
     private bool boolMoveDoor;
     private int doorDirection;
     private int unitsIn;
@@ -24,6 +25,11 @@ public class ElevatorController : MonoBehaviour
         boolMoveDoor = true;       
         doorSpeed = doorSpeed * Time.deltaTime;
         elevatorSpeed = elevatorSpeed * Time.deltaTime;
+        // get spawn points 
+        for (int i = 0; i < 4; i++)
+        {
+            spawn.Add(this.GetComponentInChildren(); //TODO finish
+        }
         openDoor();
     }
 
